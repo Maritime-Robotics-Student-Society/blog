@@ -6,17 +6,17 @@ highlighter: rouge
 lsi: false
 permalink: /:title
 
-title: "Your Name"
-description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+title: "Soton Sailing Robot"
+description: "A student led team building next generation open source ocean observation platforms."
 baseurl: "/blog"
 url: "http://www.sotonsailrobot.org" # replace by your site's url
-twitter_username: your-name
-github_username:  lukas-h # (your name)
+twitter_username: SotonSailRobot
+github_username:  Maritime-Robotics-Student-Society # (your name)
 accent: "#f7f7e6" # accent color for blog column
 
-author: "Your Name"
-address: "Your Street, <br>Your City, Country"
-email: "your@email.com"
+author: "Yu Cao"
+address: "B176 Boldrewood Campus,  University of Southampton, U.K"
+email: "sotonsailrobot@gmail.com"
 
 # google analytics tracking code, please change the value
 g_analytics: ""
