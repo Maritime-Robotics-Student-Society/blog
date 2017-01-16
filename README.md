@@ -1,38 +1,81 @@
-# onepage
-uncomplicated single-page jekyll blog theme
+![](_assets/images/documentation/chalk-intro@2x.png)
 
-# [DEMO](http://himsel.me)
+Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
-# use it! - 4 easy steps
+## Overview
 
-#### 1. fork this repository and rename it
+Features:
+  - Dark and Light theme.
+  - Filter on tags.
+  - customizable pagination.
+  - Beautified link sharing in Facebook and other social media.
+  - Automatic time to read post indicator.
+  - Automatic RSS feed.
+  - About page.
+  - 404 page.
+  - SEO optimized.
+  - PageSpeed optimized.
+  - Cross browser support (supports all modern browsers).
+  - Media embed for videos.
+  - Enlarge images on click (like Medium).
 
-#### 2. create a branch called `gh-pages`
+Integrations
+  - [Google Analytics](https://analytics.google.com/analytics/web/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [Ionicons](http://ionicons.com/)
+  - Social media links
 
-#### 3. edit the `_config.yml` file  
+Used tools
+  - [Autoprefixer](https://github.com/postcss/autoprefixer)
+  - [Bower](http://bower.io/)
+  - [Circle CI](https://circleci.com/)
+  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
+  - [Jekyll](http://jekyllrb.com/)
+  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
+  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
+  - [Kickster](http://kickster.nielsenramon.com/)
+  - [Retina.js](http://imulus.github.io/retinajs/)
+  - [STACSS](http://stacss.nielsenramon.com/)
 
-3.1. paste your `title` and `description`  
+## Usage
 
-3.2. give your site's url with protocol (http or https) to the variable `url`  
+### Installation
 
-3.3. the part after your page domain, for example you have `http://himsel.me/onepage`, `baseurl: "/onepage"` is the right value
+If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](http://brew.sh/) installed):
 
-3.4. paste **github** and **twitter** username to the following variables. Important: **without** @ prefix  
+    brew install ruby
+    brew install npm
 
-3.5. `accent` is the color code for the blog column
+Next setup your environment:
 
-3.6. edit address and name, email too.
+    bin/setup
 
-3.7. you are using google analytics? paste your ID to `g_analytics: ""`
+### Development
 
-3.8. edit html content language here: `isolang: en`, default is english
+Run Jekyll:
 
-#### 4. start writing posts
+    bundle exec jekyll serve
 
-4.1 posts are in the directory `_posts`  
+### Deploy to GitHub Pages
 
-4.2 see here an introduction: http://jekyllrb.com/docs/posts/  
+Run this in the root project folder in your console:
 
-# thank you
-share this project, give a star, contributions welcome  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    bin/deploy
+
+You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+
+[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+
+## License
+
+MIT License
+
+## Contributing
+
+1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
