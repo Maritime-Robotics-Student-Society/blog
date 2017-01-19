@@ -20,5 +20,3 @@ Kids (and grown up kids) can design their own sail, choose one of our foam hulls
 We will be in the new towing tank on Boldrewood campus. In the same building you can also find the wave powered vessel FLEUR, the Southampton Hydro Team and more ship science related activities and information.
 
 
-
-[gallery ids="47,48" type="rectangular"]
