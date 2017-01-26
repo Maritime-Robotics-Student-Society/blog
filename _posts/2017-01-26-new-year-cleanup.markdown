@@ -12,4 +12,4 @@ Then our materials were structured based on how often we use them: Every meeting
 For some large drawings of our first boat designs we opened a new section in our storage: History!
 
 At the end of the day we were proud to see that we had reduced the chaos into some neatly sorted boxes:
-![Before and after view of our cleanup]({{site.url}}/_assets/images/cleanup-Januar17.png)
+![Before and after view of our cleanup](/assets/images/cleanup-Januar17.png)
