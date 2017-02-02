@@ -1,3 +1,14 @@
+---
+author: superwool
+comments: true
+date: 2017-02-02 18:47:46+00:00
+layout: post
+slug: team-meeting-2nd-february-2017
+title: Team Meeting 2nd February 2017
+categories:
+- Sailing Robot Team
+---
+
 Today's meeting was spent on discussions on some pretty important events for the team.
 
 # The Results of the Discussions
