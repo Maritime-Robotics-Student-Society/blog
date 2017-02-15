@@ -1,8 +1,14 @@
 language:
   - generic
 
+machine:
+  ruby:
+    version: 2.3
+
 install:
   - npm install -g bower
   - gem install public_suffix -v '2.0.5'
   - bundle install
-script: sh ./bin/deploy 
+
+script:
+  - sh ./bin/deploy 
