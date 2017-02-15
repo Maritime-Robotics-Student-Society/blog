@@ -33,6 +33,7 @@ eval `ssh-agent -s`
 ssh-add blogCI
 
 git remote set-url origin $SSH_REPO
+ssh -T git@github.com # username debug
 git push -f -q origin gh-pages
 
 # Move back to previous branch.
