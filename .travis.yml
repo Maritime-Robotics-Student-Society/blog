@@ -3,7 +3,7 @@ rvm:
 - 2.3.1
 before_install:
 - openssl aes-256-cbc -K $encrypted_7ff110883387_key -iv $encrypted_7ff110883387_iv
-  -in blogCI.enc -out ~\/.ssh/blogCI -d
+  -in blogCI.enc -out blogCI -d
 - git config --global user.email "$COMMIT_AUTHOR_EMAIL"
 - git config --global user.name "Hardworking Travis CI"
 install:
