@@ -3,7 +3,7 @@ language:
 
 machine:
   ruby:
-    version: 2.3
+    version: 2.3.1
 
 install:
   - npm install -g bower
