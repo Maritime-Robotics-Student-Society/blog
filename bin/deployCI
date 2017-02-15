@@ -26,9 +26,9 @@ rm -R _site/
 # Push to gh-pages.
 git add -fA
 git commit --allow-empty -m "CI deploy to blog page: ${SHA}"
-chmod 600 ~/.ssh/blogCI
+chmod 600 blogCI
 eval `ssh-agent -s`
-ssh-add ~/.ssh/blogCI
+ssh-add blogCI
 git push -f -q origin gh-pages
 
 # Move back to previous branch.
