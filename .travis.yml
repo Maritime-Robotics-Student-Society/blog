@@ -1,0 +1,5 @@
+language:
+  - generic
+
+install: true
+script: sh ./bin/deploy 
