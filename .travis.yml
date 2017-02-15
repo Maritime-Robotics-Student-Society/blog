@@ -9,4 +9,4 @@ before_install:
 install:
 - sh ./bin/setup
 script:
-- sh ./bin/deployCI
+- bash ./bin/deployCI
