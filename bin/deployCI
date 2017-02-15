@@ -6,6 +6,8 @@
 set -e
 
 echo "Started deploying"
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 
 # Checkout gh-pages branch.
 if [ `git branch | grep gh-pages` ]
@@ -29,6 +31,8 @@ git commit --allow-empty -m "CI deploy to blog page: ${SHA}"
 chmod 600 blogCI
 eval `ssh-agent -s`
 ssh-add blogCI
+
+git remote set-url origin $SSH_REPO
 git push -f -q origin gh-pages
 
 # Move back to previous branch.
