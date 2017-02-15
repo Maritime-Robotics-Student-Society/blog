@@ -1,5 +1,7 @@
 language:
   - generic
 
-install: npm install -g bower
+install:
+  - npm install -g bower
+  - bundle install
 script: sh ./bin/deploy 
