@@ -11,4 +11,5 @@ install:
   - bundle install
 
 script:
+  - sh ./bin/setup
   - sh ./bin/deploy 
