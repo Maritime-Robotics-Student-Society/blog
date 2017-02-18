@@ -6,6 +6,7 @@ before_install:
   -in blogCI.enc -out blogCI -d
 - git config --global user.email $(git log -n1 --format=format:%aE)
 - git config --global user.name "Hardworking Travis CI"
+
 install:
 - sh ./bin/setup
 script:
