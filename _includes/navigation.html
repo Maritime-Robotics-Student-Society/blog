@@ -3,9 +3,14 @@
   <ul class="header-links">
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
+        <a href="{{ 'about' | relative_url }}" title="About">
           <span class="icon icon-android-person"></span>
         </a>
+      </li>
+    {% endif %}
+    {% if site.url_website %}
+      <li>
+        <a href="{{site.url_website}}" target="_blank" title="Website">Our site :D</a>
       </li>
     {% endif %}
     {% if site.social.twitter %}

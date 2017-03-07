@@ -1,10 +1,13 @@
 # Mandatory settings
 
-name: Soton Sailing Robot Team Blog 
+name: Soton Sailing Robot Team Blog
 paginate: 25
 paginate_path: "/posts/page/:num/"
 url:  http://blog.sotonsailrobot.org/
 blog_theme: light # Or use dark
+
+# URL to website
+url_website: https://sotonsailrobot.org/
 
 # Optional settings
 
@@ -17,7 +20,7 @@ social:
   facebook: maritimeroboticssouthampton
   github: Maritime-Robotics-Student-Society
   linkedin: # Add your LinkedIn handle
-  twitter: SotonSailRobot 
+  twitter: SotonSailRobot
   email: sotonsailrobot@gmail.com
   bitcoin: # Add your Bitcoin link or address
 
