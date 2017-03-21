@@ -1,41 +1,17 @@
-### Sailing team blog site
-This is our Jekyll based static blog site: [blog.sotonsailrobot.org](blog.sotonsailrobot.org)
+# Skinny Bones Jekyll Starter
 
-Build status: ![status](https://travis-ci.org/Maritime-Robotics-Student-Society/blog.svg?branch=master)
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-If you already have access of this repository:
-1. Create a markdown file under `_posts` folder with the format `yyyy-mm-dd-the-title-here.md`
-2. In this markdown fill in basic information in header, example
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-        ---
-        author: tony
-        comments: true
-        date: 2017-02-18 19:57:46+00:00
-        layout: post
-        title: Sailing Robot team present at Portsmouth linux user group
-        categories:
-        - Sailing Robot Team
-        ---
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
-3. Fill in content in [markdown format](https://guides.github.com/features/mastering-markdown/). If you have any pictures to include, put them under `assets/images` folder and use a relative path `../assets/images/` in your markdown file
-4. Push to the post and picture back to this repository, travis-ci will automatically build and deploy the site
+---
 
-If you don't have access of this repository:
+## Notable Features
 
-1. Fork and create a markdown file under `_posts` folder with the format `yyyy-mm-dd-the-title-here.md`
-2. In this markdown fill in basic information in header, example
-
-        ---
-        author: tony
-        comments: true
-        date: 2017-02-18 19:57:46+00:00
-        layout: post
-        title: Sailing Robot team present at Portsmouth linux user group
-        categories:
-        - Sailing Robot Team
-        ---
-
-3. Fill in content in [markdown format](https://guides.github.com/features/mastering-markdown/). If you have any pictures to include, put them under `assets/images` folder and use a relative path `../assets/images/` in your markdown file
-4. Push to the post and picture back to your repository, send a pull request and travis-ci will automatically build and deploy the site
-
-If you just want post your article, send your article in a single zipped file to  ** @sim ** . 
+* Jekyll 3.x and GitHub Pages compatible.
+* Stylesheet built using Sass.
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.

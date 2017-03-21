@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: Posts
+  url: /articles/
+  excerpt: "Blog posts collections on our latest updates"
+
+- title: About                          
+  url: /about/
+  excerpt: "About Southampton Sailing Robot Team"
+
+
