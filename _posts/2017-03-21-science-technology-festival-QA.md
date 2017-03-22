@@ -3,7 +3,6 @@ author: sophia
 comments: true
 date: 2017-03-21 19:57:46+00:00
 layout: post
-status: draft
 title: We got a lot of interesting questions at the science day! (Part 1)
 categories:
 - Sailing Robot Team
