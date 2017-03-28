@@ -3,6 +3,8 @@ author: alvaropp
 comments: true
 date: 2017-02-14 18:47:46+00:00
 layout: article
+image:
+   teaser: Meetings.jpg
 slug: team-meeting-14th-february-2017
 title: Team Meeting 14th February 2017
 categories:
