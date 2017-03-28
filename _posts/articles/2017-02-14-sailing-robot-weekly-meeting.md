@@ -20,4 +20,4 @@ Got everything fully functioning and spotted some seawater corrosion on some con
 ### Researched improvements to the wind sensor
 
 ### Improve `rosbag` indexing to allow for easier management and visual inspection
-[![rosbag indexing](../assets/images/data_index.png)]( "rosbag indexing")]
+[![rosbag indexing](/images/data_index.png)]( "rosbag indexing")]

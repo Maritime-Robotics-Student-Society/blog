@@ -26,7 +26,7 @@ Doing so, they spotted a couple of things:
 
 In our meeting today, we drew on the whiteboard to explain what happened:
 
-![Foam boat in tank](../assets/images/tank.jpg)
+![Foam boat in tank](/images/tank.jpg)
 
 For safety reasons, we only put the minimum amount of water in the pool that allowed the boats to float nicely.
 This meant that a high wall was standing inbetween the wind coming from the ventilator and the water surface.
@@ -53,7 +53,7 @@ The further up the mast, the stronger the moment.
 Rectangular sails are very wide at the top of the mast, triangular sails are not wide at the top of the mast. As a result, boats with rectangular sails got a stronger moment that
 was trying to tip them over. This is why more of them capsized.
 
-![downwind condition explained](../assets/images/downwind.jpg)
+![downwind condition explained](/images/downwind.jpg)
 
 
 Whilst the kids where happily capsizing boats in the small pool, some adults were thinking back to the towing tank tour they had just finished and asked us,

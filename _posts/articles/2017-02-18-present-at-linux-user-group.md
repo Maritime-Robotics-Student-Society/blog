@@ -10,16 +10,16 @@ categories:
 
 Today, our team members went to Portsmouth Linux user group meeting and presented our project there.
 
-![A huge collection of USB stick](../assets/images/IMG_0402.JPG)
+![A huge collection of USB stick](/images/IMG_0402.JPG)
 
 In our project, we use a wide set of open-source tools including Robot Operating System, Python programming language, git version control system, GitHub online code hosting system and Linux. It is a good chance to share our story with Linux enthusiasts and get some practical advice from them.
 
-![Win98 Floppy disk](../assets/images/IMG_0403.JPG)
+![Win98 Floppy disk](/images/IMG_0403.JPG)
 
 [Portsmouth Linux user group](http://www.portsmouth.lug.org.uk) has monthly meetings to share information about Linux and other open-source projects. The group is very welcoming and they had lots of questions on our boat.
 
 
-![Presentation](../assets/images/IMG_0405.JPG)
+![Presentation](/images/IMG_0405.JPG)
 
 We got some interesting questions asked by the group:
 
@@ -34,4 +34,4 @@ Zig zag motion takes advantage of aerodynamic lift to make the boat go faster. W
 
 
 
-![New toy](../assets/images/IMG_0404.JPG)
+![New toy](/images/IMG_0404.JPG)
