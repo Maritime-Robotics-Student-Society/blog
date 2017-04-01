@@ -27,14 +27,23 @@ at the top of our boat and the rotation of a current measuring wheel below our b
 anemometer decreases the time between manoeuvres, allowing the DaVinci to consider the speed of the wind
 and thus its own speed. The spinning speed and direction of the current measuring wheel 
 corrects the heading settings.
-Finally, to increase stability and improve the tacking capability of our boat, we added two spinning wheels.
-One to keep the boat 
+To increase stability and improve the tacking capability of our boat, we added two spinning wheels.
+One to keep the boat from heeling, spinning in the horizontal plane. A second wheel to help with keeping
+a constant heading, which is also actuated to support rudder actions.   
 
-Now the mechanical implementation starts: This week we are starting to 3D print the gear parts that have
-lower torque on them.
-Connecting with our past
-- spin wheels for 
+With the system described above, we are convinced we can better solve the racing, area scanning and
+position keeping tasks. The obstacle avoidance though is a larger challenge. Our main plan are
+four long whiskers. Thanks to the physics of leaver arms, a light touch on the obstacles at a very
+long distance will be enough to induce a small, strong torque motion on DaVinci which will 
+set in motion our obstacle avoidance.
+Should the touching of the whiskers count as a collision, our alternative plan is
+to resign to using a camera
+with a servo motor to integrate the camera results in our mechanics.
+
+Now the implementation starts: This week we are starting to 3D print the gear parts that have
+lower torque on them and won`t be under a lot of stress. The higher stress parts will be machined
+from aluminium, or where needed from stainless steel at the EDMC.
 Keep an eye on our blog for future posts explaining the intricate details of our gear design, 
 our manufacturing progress and details on our simulation.
 
-So, Veni, Vidi, Vinci!
+Veni, Vidi, Vinci!
