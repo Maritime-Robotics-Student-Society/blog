@@ -2,10 +2,13 @@
 author: smaria
 comments: true
 date: 2017-04-01 15:57:46+00:00
-layout: post
+layout: article
+image:
+   teaser: operation.png
 title: Mechanical sailing for the win!
 categories:
-- Sailing Robot Team
+- articles
+
 ---
 
 If you have been following our blog posts over the last years, you will know:
