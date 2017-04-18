@@ -3,7 +3,7 @@ author: thomas
 comments: true
 date: 2017-02-18 19:57:46+00:00
 layout: post
-published: false
+published: true
 title: Is sailing the past, or the future?
 categories:
 - Sailing Robot Team
