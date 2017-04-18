@@ -4,7 +4,7 @@ comments: true
 date: 2017-04-18 18:57:46+00:00
 layout: article
 image:
-   teaser: poc.jpg
+   teaser: poc.png
 published: true
 title: Is sailing the past, or the future?
 categories:
@@ -15,7 +15,7 @@ This was a particularly interesting question we were asked at the science fair:
 "Isn't sailing old hat?" It's easy to think about the Golden Age of Sail in the
 1800s, or the Pirates of the Caribbean films.
 
-![](/images/poc.jpg)
+![](/images/poc.png)
 
 So why is sailing still interesting in 2017? First off, there's an environmental
 concern. Most cargo ships, cruise liners and ferries burn fossil fuels, releasing
