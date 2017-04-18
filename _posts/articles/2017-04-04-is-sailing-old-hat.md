@@ -2,7 +2,7 @@
 author: thomas
 comments: true
 date: 2017-04-18 18:57:46+00:00
-layout: post
+layout: article
 image:
    teaser: poc.jpg
 published: true
