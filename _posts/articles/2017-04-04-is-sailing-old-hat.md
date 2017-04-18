@@ -13,7 +13,7 @@ This was a particularly interesting question we were asked at the science fair:
 "Isn't sailing old hat?" It's easy to think about the Golden Age of Sail in the
 1800s, or the Pirates of the Caribbean films.
 
-[ Screenshot from PotC ]
+![](/images/poc.jpg)
 
 So why is sailing still interesting in 2017? First off, there's an environmental
 concern. Most cargo ships, cruise liners and ferries burn fossil fuels, releasing
@@ -29,10 +29,12 @@ wouldn't get far before it needed refuelling.
 Our boat still uses batteries for the computer and the servos, however, which
 led to another interesting question: could we fit it with solar panels, so it
 could run indefinitely without needing someone to switch and recharge the
-batteries? Yu Cao's PhD work is related to this...
+batteries? Yu Cao's PhD work is related to this.
+A study shows that renewable energy resources such as wind, wave and solar can power up small size maritime vehicles. It is possible to supply energy with renewable and ultimately archive fully autonomous operation on the sea. More details can be found on Yu's research [webpage](http://www.soton.ac.uk/~yc6n13).
 
-[ TONY: Fill in this section ]
-[ Mugshot of Tony beside it? ]
+![](/images/Yucaoprofile.jpg)
+
+
 
 The ultimate challenge for autonomous sailing boats is the [Microtransat challenge](http://www.microtransat.org/),
 in which contestants attempt to sail across the Atlantic Ocean. So far, none of
