@@ -1,12 +1,14 @@
 ---
 author: thomas
 comments: true
-date: 2017-02-18 19:57:46+00:00
+date: 2017-04-18 18:57:46+00:00
 layout: post
+image:
+   teaser: poc.jpg
 published: true
 title: Is sailing the past, or the future?
 categories:
-- Sailing Robot Team
+- articles
 ---
 
 This was a particularly interesting question we were asked at the science fair:
