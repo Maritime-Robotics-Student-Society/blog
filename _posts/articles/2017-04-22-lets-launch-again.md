@@ -2,13 +2,13 @@
 author: smaria
 comments: true
 date: 2017-04-23 19:57:46+00:00
-layout: post
+layout: article
 image:
    teaser: poke.png
 published: true
 title: Let`s launch again, like we did last summer
 categories:
-- Sailing Robot Team
+- articles
 ---
 
 With the weather being lovely and warm, we were looking forwards to our first test day at a lake,
@@ -32,7 +32,7 @@ Occasionally this brought the Black Python dangerously close to land; whilst usu
 remote control and safe the boat on time, a beaching of the Black Python reminded us to use the forbidden
 zone that was implemented for Portugal with the Eastleigh lake as well, in the future.
 
-![Freeing a stuck sailing boat with a stick](/images/17-04-25-poke-it-with-a-stick.png =600x)
+![Freeing a stuck sailing boat with a stick](/images/17-04-25-poke-it-with-a-stick.png)
 (It`s not moving. Let`s poke it with a stick.)
 
 We started to value the capabilities of our boat significantly more when we tried to sail the boat manually
