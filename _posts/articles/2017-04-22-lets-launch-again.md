@@ -3,7 +3,7 @@ author: smaria
 comments: true
 date: 2017-04-23 19:57:46+00:00
 layout: post
-published: false
+published: true
 title: Let`s launch again, like we did last summer
 categories:
 - Sailing Robot Team
