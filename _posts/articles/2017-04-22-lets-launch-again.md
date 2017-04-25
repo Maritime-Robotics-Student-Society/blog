@@ -16,9 +16,9 @@ trying to see if our good old Black Python was still a sea worthy boat.
 Several of us noticed this morning that the wind was rather absent, so we kept worriedly staring out of our
 windows. However by the point we had arrived at Eastleigh Lakes, it had nicely picked up and a lovely light
 breeze was blowing wave patterns accross the water.
-Before we got around to launching our own boat, we curiously watched the southern scouts [TODO: what are they properly called?]
-canooing [TODO: is this spelled correctly?] on Eastleigh lakes - three of the canoes were fitted with red sails!
-So the first thing we learned today, there are canoe races which only use sails for propulsion!
+Before we got around to launching our own boat, we curiously watched the Itchen South District Scouts
+canoeing on Eastleigh lakes - three of the canoes were fitted with red sails!
+So the first thing we learned today, there are canoe races which only use sails for propulsion.
 
 Then it was time for the Black Python to go in. We (completely on purpose *aehm*) left our jib sheet loose, so the Black
 Python was unable to Tack successfully. This was to test the newest addition to our Tacking complex: After a timeout of currently
