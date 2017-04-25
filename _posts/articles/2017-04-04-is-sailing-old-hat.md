@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: poc.png
 published: true
-title: Is sailing the past, or the future?
+title: Is sailing the past, or the future? (Science fair pt. 2)
 categories:
 - articles
 ---

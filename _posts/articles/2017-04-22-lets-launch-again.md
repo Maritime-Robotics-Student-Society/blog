@@ -33,7 +33,7 @@ remote control and safe the boat on time, a beaching of the Black Python reminde
 zone that was implemented for Portugal with the Eastleigh lake as well, in the future.
 
 ![Freeing a stuck sailing boat with a stick](/images/17-04-25-poke-it-with-a-stick.png)
-(It`s not moving. Let`s poke it with a stick.)
+(It's not moving. Let's poke it with a stick.)
 
 We started to value the capabilities of our boat significantly more when we tried to sail the boat manually
 accross the lake to recover it - it turned out to be very challenging to make any progress against the wind.
