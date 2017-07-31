@@ -75,7 +75,7 @@ make it a separate tool you can install.
 
 ## Syncthing
 
-![syncthing logo](syncthing_logo.png)
+![syncthing logo](/images/syncthing-logo.png)
 
 This isn't something we wrote, but it's a nifty tool we use to share the data
 between our computers.
