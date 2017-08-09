@@ -18,7 +18,7 @@ hands on some new kit to try out. Armed with a
 Sunday was our first chance to put our new toy through its paces, with a morning
 test at Southampton Sailing Club.
 
-![2017 water test cover](/images/20170806-water-test-cover.jpg)
+![2017 water test cover](/images/20170806_water_test_cover.jpg)
 *The estuary by the sailing club, complete with great weather*
 
 [Xsens](https://www.xsens.com/) has generously sponsored us with one of their
