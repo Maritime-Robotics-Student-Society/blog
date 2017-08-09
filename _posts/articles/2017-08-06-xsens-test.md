@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: 20170806-water-test-cover.jpg
 published: true
-title: 1st Water Test 2017: Testing the Xsens MTi-3
+title: "1st Water Test 2017: Testing the Xsens MTi-3"
 categories:
 - articles
 ---
