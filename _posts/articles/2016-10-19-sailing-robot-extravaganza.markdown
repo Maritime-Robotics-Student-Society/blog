@@ -8,6 +8,7 @@ slug: sailing-robot-extravaganza
 title: Sailing Robot Extravaganza Part I
 image:
    teaser: extravanganza1.png
+   path: /images/extravanganza1.png
 wordpress_id: 680
 categories:
 - articles

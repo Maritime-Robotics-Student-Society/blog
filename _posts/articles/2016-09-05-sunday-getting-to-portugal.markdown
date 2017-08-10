@@ -9,6 +9,7 @@ title: Sunday - Getting to Portugal
 wordpress_id: 475
 image:
   teaser: way-to-contest.png
+  path: /images/way-to-contest.png
 categories:
 - articles
 ---

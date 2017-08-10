@@ -9,6 +9,7 @@ title: 'Team Introduction: Sophia'
 wordpress_id: 126
 image:
     teaser: Sophiaprofile.png
+    path: /images/Sophiaprofile.png
 categories:
 - articles
 ---

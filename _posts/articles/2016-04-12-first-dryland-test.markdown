@@ -9,6 +9,7 @@ title: First Dryland Test
 wordpress_id: 82
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---

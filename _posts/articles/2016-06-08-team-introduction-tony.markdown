@@ -9,6 +9,7 @@ title: 'Team Introduction: Tony'
 wordpress_id: 219
 image:
   teaser: tony.png
+  path: /images/tony.png
 categories:
 - articles
 ---

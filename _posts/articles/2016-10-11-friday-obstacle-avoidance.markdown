@@ -8,6 +8,7 @@ slug: friday-obstacle-avoidance
 title: Friday - Obstacle Avoidance
 image:
   teaser: colisionavoidance.png
+  path: /images/colisionavoidance.png
 wordpress_id: 782
 categories:
 - articles

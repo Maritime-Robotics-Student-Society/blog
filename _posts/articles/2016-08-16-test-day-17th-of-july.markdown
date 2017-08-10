@@ -9,6 +9,7 @@ title: Test day 17th of July
 wordpress_id: 440
 image:
   teaser: testday24july.png
+  path: /images/testday24july.png
 categories:
 - articles
 ---

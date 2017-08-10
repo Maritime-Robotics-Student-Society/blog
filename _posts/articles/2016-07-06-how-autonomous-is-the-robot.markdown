@@ -9,6 +9,7 @@ title: How autonomous is the robot?
 wordpress_id: 406
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---

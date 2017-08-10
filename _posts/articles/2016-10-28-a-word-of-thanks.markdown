@@ -9,6 +9,7 @@ title: A Word of Thanks
 wordpress_id: 847
 image:
   teaser: thankyoupreview.png
+  path: /images/thankyoupreview.png
 categories:
 - articles
 ---

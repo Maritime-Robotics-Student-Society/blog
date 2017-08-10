@@ -9,6 +9,7 @@ title: Micro-sailboat class update
 wordpress_id: 91
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---

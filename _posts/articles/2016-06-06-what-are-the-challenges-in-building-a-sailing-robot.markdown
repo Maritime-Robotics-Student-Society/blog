@@ -9,6 +9,7 @@ title: What are the challenges in building a sailing robot?
 wordpress_id: 212
 image:
    teaser: challengesinbuild.png
+   path: /images/challengesinbuild.png
 categories:
 - articles
 ---

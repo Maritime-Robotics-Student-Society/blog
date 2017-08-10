@@ -5,6 +5,7 @@ date: 2017-02-18 19:57:46+00:00
 layout: article
 image:
    teaser: portsmouthtug.png
+   path: /images/portsmouthtug.png
 title: Sailing Robot team present at Portsmouth linux user group
 categories:
 - articles

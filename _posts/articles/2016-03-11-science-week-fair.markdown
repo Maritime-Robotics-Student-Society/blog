@@ -9,6 +9,7 @@ title: Science Week Fair!
 wordpress_id: 45
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---

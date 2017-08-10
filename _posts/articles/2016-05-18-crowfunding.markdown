@@ -9,6 +9,7 @@ title: Crowdfunding!
 wordpress_id: 120
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---

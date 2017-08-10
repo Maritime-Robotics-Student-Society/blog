@@ -9,6 +9,7 @@ title: 'Team Introduction: Pier'
 wordpress_id: 346
 image:
   teaser: pierprofile.png
+  path: /images/pierprofile.png
 categories:
 - articles
 ---

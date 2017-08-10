@@ -8,6 +8,7 @@ slug: wednesday-station-keeping
 title: Wednesday - Station Keeping
 image:
   teaser: station-keeping.png
+  path: /images/station-keeping.png
 wordpress_id: 563
 categories:
 - articles

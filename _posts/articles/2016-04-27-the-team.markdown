@@ -9,6 +9,7 @@ title: The Team
 wordpress_id: 104
 image:
   teaser: Team.png
+  path: /images/Team.png
 categories:
 - articles
 post_format:

@@ -8,6 +8,7 @@ slug: team-meeting-24th-november-2016
 title: Team Meeting 24th November 2016
 image:
    teaser: Meetings.jpg
+   path: /images/Meetings.jpg
 wordpress_id: 862
 categories:
 - articles

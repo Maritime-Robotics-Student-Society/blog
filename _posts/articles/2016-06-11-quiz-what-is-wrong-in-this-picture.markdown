@@ -9,6 +9,7 @@ title: 'QUIZ: What is wrong in this picture?'
 wordpress_id: 224
 image:
   teaser: nowind.png
+  path: /images/nowind.png
 categories:
 - articles
 ---

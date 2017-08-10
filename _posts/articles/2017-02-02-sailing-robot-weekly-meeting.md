@@ -5,6 +5,7 @@ date: 2017-02-02 18:47:46+00:00
 layout: article
 image:
    teaser: Meetings.jpg
+   path: /images/Meetings.jpg
 slug: team-meeting-2nd-february-2017
 title: Team Meeting 2nd February 2017
 categories:

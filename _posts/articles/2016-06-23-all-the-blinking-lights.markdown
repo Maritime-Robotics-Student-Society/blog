@@ -9,6 +9,7 @@ title: All the blinking lights
 wordpress_id: 273
 image:
    teaser: latelight.png
+   path: /images/latelight.png
 categories:
 - articles
 ---

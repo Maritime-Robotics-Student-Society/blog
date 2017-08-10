@@ -8,6 +8,7 @@ slug: dry-land-test-2
 title: Dry Land Test 2
 image:
    teaser: Dryland-Test.png
+   path: /images/Dryland-Test.png
 wordpress_id: 107
 categories:
 - articles

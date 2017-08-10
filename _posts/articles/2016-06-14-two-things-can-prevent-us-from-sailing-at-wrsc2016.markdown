@@ -9,6 +9,7 @@ title: Two things can prevent us from sailing at WRSC2016...
 wordpress_id: 242
 image:
   teaser: default.png
+  path: /images/default.png
 categories:
 - articles
 ---
