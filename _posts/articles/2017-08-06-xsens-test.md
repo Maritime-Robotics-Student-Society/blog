@@ -11,8 +11,8 @@ categories:
 - articles
 ---
 
-Last Sunday, the 6th of August, marked 2017's first water test. It's high time
-the Black Python tasted the water once again! This time around, we got our
+Last Sunday, the 6th of August, marked 2017's first sea test. It's high time
+the Black Python tasted the saltwater once again! This time around, we got our
 hands on some new kit to try out. Armed with a
 [ROS driver](https://github.com/ethz-asl/ethzasl_xsens_driver) from ETH Zurich,
 Sunday was our first chance to put our new toy through its paces, with a morning
