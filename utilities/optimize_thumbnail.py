@@ -6,7 +6,6 @@ from pathlib import Path
 from resizeimage import resizeimage
 
 pat = r"[\n\r].*path:\s*([^\n\r]*)"
-sub = r"\g<0>\n\1path: /images/\2"
 types = ('*.md', '*.markdown')
 
 p = Path("../_posts/articles")
