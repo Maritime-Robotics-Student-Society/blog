@@ -8,7 +8,7 @@ slug: monday-prep-day
 title: Monday -Prep day
 image:
   teaser: prepare-preview.png
-  path: /images/prepare-preview.png
+   path: /images/prepare-preview-thumbnail.png
 wordpress_id: 482
 categories:
 - articles

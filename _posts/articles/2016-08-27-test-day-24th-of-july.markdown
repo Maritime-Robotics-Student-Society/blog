@@ -9,7 +9,7 @@ title: Test day 24th of July
 wordpress_id: 446
 image:
    teaser: testday24.png
-   path: /images/testday24.png
+   path: /images/testday24-thumbnail.png
 categories:
 - articles
 ---

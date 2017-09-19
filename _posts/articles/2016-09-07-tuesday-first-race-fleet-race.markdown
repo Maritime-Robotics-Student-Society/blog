@@ -8,7 +8,7 @@ slug: tuesday-first-race-fleet-race
 title: Tuesday - First Race (Fleet Race)
 image:
   teaser: fleetrace.png
-  path: /images/fleetrace.png
+   path: /images/fleetrace-thumbnail.png
 wordpress_id: 533
 categories:
 - articles

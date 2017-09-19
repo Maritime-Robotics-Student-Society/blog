@@ -9,7 +9,7 @@ title: Southampton Sailing Robot Team got new website
 wordpress_id: 3
 image:
   teaser: default.png
-  path: /images/default.png
+   path: /images/default-thumbnail.png
 categories:
 - articles
 ---

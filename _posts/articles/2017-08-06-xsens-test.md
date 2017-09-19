@@ -5,7 +5,7 @@ date: 2017-08-06 18:57:46+00:00
 layout: article
 image:
    teaser: 20170806_water_test_preview.jpg
-   path: /images/20170806_water_test_preview.jpg
+   path: /images/20170806_water_test_preview-thumbnail.jpg
 published: true
 title: 1st Sea Test 2017 Testing the Xsens MTi3
 categories:

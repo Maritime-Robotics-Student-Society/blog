@@ -9,7 +9,7 @@ title: Test day 3rd of July
 wordpress_id: 435
 image:
   teaser: test3July.png
-  path: /images/test3July.png
+   path: /images/test3July-thumbnail.png
 categories:
 - articles
 ---

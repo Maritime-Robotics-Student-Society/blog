@@ -9,7 +9,7 @@ title: Thursday - Area Scanning
 wordpress_id: 735
 image:
   teaser: area-scaning.png
-  path: /images/area-scaning.png
+   path: /images/area-scaning-thumbnail.png
 categories:
 - articles
 ---

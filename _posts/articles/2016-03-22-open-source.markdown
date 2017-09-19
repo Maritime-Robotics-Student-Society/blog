@@ -9,7 +9,7 @@ title: Open Source in Open Waters
 wordpress_id: 73
 image:
   teaser: default.png
-  path: /images/default.png
+   path: /images/default-thumbnail.png
 categories:
 - articles
 ---

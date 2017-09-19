@@ -9,7 +9,7 @@ title: 'Team Introduction: Sébastien'
 wordpress_id: 422
 image:
   teaser: sebprofile.png
-  path: /images/sebprofile.png
+   path: /images/sebprofile-thumbnail.png
 categories:
 - articles
 ---
