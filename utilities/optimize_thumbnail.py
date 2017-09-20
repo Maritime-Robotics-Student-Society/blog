@@ -19,5 +19,5 @@ for type in types:
             with file.open('w') as f:
                 f.write(newtxt)
             img = Image.open('..' + image_path)
-            img = resizeimage.resize_width(img, 200)
+            img = resizeimage.resize_width(img, 240)
             img.save('..' + save_path, img.format)
