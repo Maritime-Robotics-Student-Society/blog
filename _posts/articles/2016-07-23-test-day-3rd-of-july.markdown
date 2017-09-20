@@ -8,7 +8,7 @@ slug: test-day-3rd-of-july
 title: Test day 3rd of July
 wordpress_id: 435
 image:
-  teaser: test3July.png
+   teaser: test3July.png
    path: /images/test3July-thumbnail.png
 categories:
 - articles

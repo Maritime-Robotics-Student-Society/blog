@@ -9,7 +9,7 @@ title: We Won!
 wordpress_id: 605
 image:
   teaser: we-won.png
-   path: /images/we-won-thumbnail.png
+  path: /images/we-won-thumbnail.png
 categories:
 - articles
 ---
