@@ -8,7 +8,7 @@ slug: first-dryland-test
 title: First Dryland Test
 wordpress_id: 82
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

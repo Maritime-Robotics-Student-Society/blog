@@ -8,7 +8,7 @@ slug: quiz-what-is-wrong-in-this-picture
 title: 'QUIZ: What is wrong in this picture?'
 wordpress_id: 224
 image:
-  teaser: nowind.png
+  teaser: nowind-thumbnail.png
   path: /images/nowind-thumbnail.png
 categories:
 - articles

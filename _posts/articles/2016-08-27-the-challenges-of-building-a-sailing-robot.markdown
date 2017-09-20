@@ -8,7 +8,7 @@ slug: the-challenges-of-building-a-sailing-robot
 title: The Challenges of Building a Sailing Robot
 wordpress_id: 449
 image:
-  teaser: challengesinsail.png
+  teaser: challengesinsail-thumbnail.png
   path: /images/challengesinsail-thumbnail.png
 categories:
 - articles

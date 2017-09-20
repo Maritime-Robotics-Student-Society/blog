@@ -8,7 +8,7 @@ slug: micro-sailboat-class-update
 title: Micro-sailboat class update
 wordpress_id: 91
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

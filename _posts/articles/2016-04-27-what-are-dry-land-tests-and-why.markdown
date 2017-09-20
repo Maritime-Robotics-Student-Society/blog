@@ -8,7 +8,7 @@ slug: what-are-dry-land-tests-and-why
 title: What are Dry Land Tests? And Why?
 wordpress_id: 98
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

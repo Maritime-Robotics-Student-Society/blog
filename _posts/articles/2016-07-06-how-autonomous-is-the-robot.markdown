@@ -8,7 +8,7 @@ slug: how-autonomous-is-the-robot
 title: How autonomous is the robot?
 wordpress_id: 406
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

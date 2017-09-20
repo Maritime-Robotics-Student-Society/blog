@@ -8,7 +8,7 @@ slug: southampton-sailing-robot-team
 title: Southampton Sailing Robot Team got new website
 wordpress_id: 3
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

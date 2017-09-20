@@ -8,7 +8,7 @@ slug: team-introduction-sebastien
 title: 'Team Introduction: Sébastien'
 wordpress_id: 422
 image:
-   teaser: sebprofile.png
+   teaser: sebprofile-thumbnail.png
    path: /images/sebprofile-thumbnail.png
 categories:
 - articles

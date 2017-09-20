@@ -4,7 +4,7 @@ comments: true
 date: 2017-04-01 15:57:46+00:00
 layout: article
 image:
-   teaser: operation.png
+   teaser: operation-thumbnail.png
    path: /images/operation-thumbnail.png
 title: Mechanical sailing for the win!
 categories:

@@ -8,7 +8,7 @@ slug: first-autonomous-sailing
 title: First Autonomous Sailing
 wordpress_id: 300
 image:
-   teaser: FirstSail.png
+   teaser: FirstSail-thumbnail.png
    path: /images/FirstSail-thumbnail.png
 categories:
 - articles

@@ -8,7 +8,7 @@ slug: we-made-the-funding-many-thanks-to-all-our-supporters
 title: We made the funding! Many thanks to all our supporters!
 wordpress_id: 386
 image:
-  teaser: cfthanks.png
+  teaser: cfthanks-thumbnail.png
   path: /images/cfthanks-thumbnail.png
 categories:
 - articles

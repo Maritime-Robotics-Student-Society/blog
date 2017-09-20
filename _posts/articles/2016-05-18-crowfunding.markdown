@@ -8,7 +8,7 @@ slug: crowfunding
 title: Crowdfunding!
 wordpress_id: 120
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

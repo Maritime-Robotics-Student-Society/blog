@@ -7,7 +7,7 @@ link: https://sailrobot.wordpress.com/2016/09/07/tuesday-first-race-fleet-race/
 slug: tuesday-first-race-fleet-race
 title: Tuesday - First Race (Fleet Race)
 image:
-   teaser: fleetrace.png
+   teaser: fleetrace-thumbnail.png
    path: /images/fleetrace-thumbnail.png
 wordpress_id: 533
 categories:

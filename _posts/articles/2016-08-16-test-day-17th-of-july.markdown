@@ -8,7 +8,7 @@ slug: test-day-17th-of-july
 title: Test day 17th of July
 wordpress_id: 440
 image:
-   teaser: testday24july.png
+   teaser: testday24july-thumbnail.png
    path: /images/testday24july-thumbnail.png
 categories:
 - articles

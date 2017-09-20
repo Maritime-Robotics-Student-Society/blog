@@ -4,7 +4,7 @@ comments: true
 date: 2017-05-17 02:20:00+00:00
 layout: article
 image:
-   teaser: Meetings.jpg
+   teaser: Meetings-thumbnail.jpg
    path: /images/Meetings-thumbnail.jpg
 published: true
 title: Team Meeting 16th May 2017

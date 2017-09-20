@@ -8,7 +8,7 @@ slug: the-team
 title: The Team
 wordpress_id: 104
 image:
-  teaser: Team.png
+  teaser: Team-thumbnail.png
   path: /images/Team-thumbnail.png
 categories:
 - articles

@@ -4,7 +4,7 @@ comments: true
 date: 2017-02-11 20:42:59+00:00
 layout: article
 image:
-   teaser: opensource_logo.gif
+   teaser: opensource_logo-thumbnail.gif
    path: /images/opensource_logo-thumbnail.gif
 title: We're officially sailing under MIT licence!
 categories:

@@ -8,7 +8,7 @@ slug: open-source
 title: Open Source in Open Waters
 wordpress_id: 73
 image:
-  teaser: default.png
+  teaser: default-thumbnail.png
   path: /images/default-thumbnail.png
 categories:
 - articles

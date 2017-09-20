@@ -7,7 +7,7 @@ link: https://sailrobot.wordpress.com/2016/05/05/dry-land-test-2/
 slug: dry-land-test-2
 title: Dry Land Test 2
 image:
-   teaser: Dryland-Test.png
+   teaser: Dryland-Test-thumbnail.png
    path: /images/Dryland-Test-thumbnail.png
 wordpress_id: 107
 categories:

@@ -4,7 +4,7 @@ comments: true
 date: 2017-04-23 19:57:46+00:00
 layout: article
 image:
-   teaser: poke.png
+   teaser: poke-thumbnail.png
    path: /images/poke-thumbnail.png
 published: true
 title: Let`s launch again, like we did last summer
