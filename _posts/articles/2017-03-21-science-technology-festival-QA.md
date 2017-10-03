@@ -4,8 +4,8 @@ comments: true
 date: 2017-03-21 19:57:46+00:00
 layout: article
 image:
-   teaser: opendayfront.png
-   path: /images/opendayfront.png
+   teaser: opendayfront-thumbnail.png
+   path: /images/opendayfront-thumbnail.png
 title: We got a lot of interesting questions at the science day! (Part 1)
 categories:
 - articles

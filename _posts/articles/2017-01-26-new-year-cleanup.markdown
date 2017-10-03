@@ -4,8 +4,8 @@ comments: true
 date: 2017-01-26 20:42:59+00:00
 layout: article
 image:
-   teaser: clean-up-preview.png
-   path: /images/clean-up-preview.png
+   teaser: clean-up-preview-thumbnail.png
+   path: /images/clean-up-preview-thumbnail.png
 title: New Year - time to clean up our inventory
 categories:
 - articles

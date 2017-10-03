@@ -8,8 +8,8 @@ slug: test-day-24th-of-july
 title: Test day 24th of July
 wordpress_id: 446
 image:
-   teaser: testday24.png
-   path: /images/testday24.png
+   teaser: testday24-thumbnail.png
+   path: /images/testday24-thumbnail.png
 categories:
 - articles
 ---

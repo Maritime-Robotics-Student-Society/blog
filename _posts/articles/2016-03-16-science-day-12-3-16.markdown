@@ -8,8 +8,8 @@ slug: science-day-12-3-16
 title: Science Day, 12.3.16
 wordpress_id: 56
 image:
-  teaser: default.png
-  path: /images/default.png
+  teaser: default-thumbnail.png
+  path: /images/default-thumbnail.png
 categories:
 - articles
 ---

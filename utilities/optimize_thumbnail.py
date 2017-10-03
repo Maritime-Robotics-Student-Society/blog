@@ -6,7 +6,6 @@ from pathlib import Path
 from resizeimage import resizeimage
 
 pat = r"[\n\r].*path:\s*([^\n\r]*)"
-sub = r"\g<0>\n\1path: /images/\2"
 types = ('*.md', '*.markdown')
 
 p = Path("../_posts/articles")
@@ -20,5 +19,5 @@ for type in types:
             with file.open('w') as f:
                 f.write(newtxt)
             img = Image.open('..' + image_path)
-            img = resizeimage.resize_width(img, 200)
+            img = resizeimage.resize_width(img, 240)
             img.save('..' + save_path, img.format)

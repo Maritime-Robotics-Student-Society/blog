@@ -8,8 +8,8 @@ slug: team-introduction-sophia
 title: 'Team Introduction: Sophia'
 wordpress_id: 126
 image:
-    teaser: Sophiaprofile.png
-    path: /images/Sophiaprofile.png
+    teaser: Sophiaprofile-thumbnail.png
+    path: /images/Sophiaprofile-thumbnail.png
 categories:
 - articles
 ---
