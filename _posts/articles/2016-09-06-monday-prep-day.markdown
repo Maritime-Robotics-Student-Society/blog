@@ -7,8 +7,8 @@ link: https://sailrobot.wordpress.com/2016/09/07/monday-prep-day/
 slug: monday-prep-day
 title: Monday -Prep day
 image:
-  teaser: prepare-preview.png
-  path: /images/prepare-preview.png
+   teaser: prepare-preview-thumbnail.png
+   path: /images/prepare-preview-thumbnail.png
 wordpress_id: 482
 categories:
 - articles

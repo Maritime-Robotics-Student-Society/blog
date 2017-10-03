@@ -4,8 +4,8 @@ comments: true
 date: 2017-07-30 18:57:46+00:00
 layout: article
 image:
-   teaser: data_index2.png
-   path: /images/data_index2.png
+   teaser: data_index2-thumbnail.png
+   path: /images/data_index2-thumbnail.png
 published: true
 title: Finding needles in a data haystack
 categories:

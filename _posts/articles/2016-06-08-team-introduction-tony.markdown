@@ -8,8 +8,8 @@ slug: team-introduction-tony
 title: 'Team Introduction: Tony'
 wordpress_id: 219
 image:
-  teaser: tony.png
-  path: /images/tony.png
+  teaser: tony-thumbnail.png
+  path: /images/tony-thumbnail.png
 categories:
 - articles
 ---

@@ -1,11 +1,6 @@
-# Skinny Bones Jekyll Starter
+# Southampton Sailing Robot Team blog
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
-
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
-
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
-
+This blog is based on [Skinny Bones](https://mmistakes.github.io/skinny-bones-jekyll/) theme and maintained by Southampton Sailng Robot Team. Github nicely provide us host of this website. If you are new to static webpage hosted by Github page, a good start is official [Jekyll](https://jekyllrb.com) page. Jekyll is a static page generator that convert plain markdown file into html page.
 ---
 
 ## Notable Features

@@ -4,8 +4,8 @@ comments: true
 date: 2017-04-18 18:57:46+00:00
 layout: article
 image:
-   teaser: poc.png
-   path: /images/poc.png
+   teaser: poc-thumbnail.png
+   path: /images/poc-thumbnail.png
 published: true
 title: Is sailing the past, or the future? (Science fair pt. 2)
 categories:

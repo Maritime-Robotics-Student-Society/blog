@@ -8,8 +8,8 @@ slug: all-the-blinking-lights
 title: All the blinking lights
 wordpress_id: 273
 image:
-   teaser: latelight.png
-   path: /images/latelight.png
+   teaser: latelight-thumbnail.png
+   path: /images/latelight-thumbnail.png
 categories:
 - articles
 ---

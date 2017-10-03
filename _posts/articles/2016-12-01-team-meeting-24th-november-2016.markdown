@@ -7,8 +7,8 @@ link: https://sailrobot.wordpress.com/2016/12/02/team-meeting-24th-november-2016
 slug: team-meeting-24th-november-2016
 title: Team Meeting 24th November 2016
 image:
-   teaser: Meetings.jpg
-   path: /images/Meetings.jpg
+   teaser: Meetings-thumbnail.jpg
+   path: /images/Meetings-thumbnail.jpg
 wordpress_id: 862
 categories:
 - articles

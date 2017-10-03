@@ -8,8 +8,8 @@ slug: thursday-area-scanning
 title: Thursday - Area Scanning
 wordpress_id: 735
 image:
-  teaser: area-scaning.png
-  path: /images/area-scaning.png
+   teaser: area-scaning-thumbnail.png
+   path: /images/area-scaning-thumbnail.png
 categories:
 - articles
 ---

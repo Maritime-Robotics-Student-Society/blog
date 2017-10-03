@@ -7,8 +7,8 @@ link: https://sailrobot.wordpress.com/2016/09/08/wednesday-station-keeping/
 slug: wednesday-station-keeping
 title: Wednesday - Station Keeping
 image:
-  teaser: station-keeping.png
-  path: /images/station-keeping.png
+   teaser: station-keeping-thumbnail.png
+   path: /images/station-keeping-thumbnail.png
 wordpress_id: 563
 categories:
 - articles

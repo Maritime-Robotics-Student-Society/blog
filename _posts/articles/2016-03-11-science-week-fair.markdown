@@ -8,8 +8,8 @@ slug: science-week-fair
 title: Science Week Fair!
 wordpress_id: 45
 image:
-  teaser: default.png
-  path: /images/default.png
+  teaser: default-thumbnail.png
+  path: /images/default-thumbnail.png
 categories:
 - articles
 ---

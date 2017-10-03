@@ -7,8 +7,8 @@ link: https://sailrobot.wordpress.com/2016/10/11/friday-obstacle-avoidance/
 slug: friday-obstacle-avoidance
 title: Friday - Obstacle Avoidance
 image:
-  teaser: colisionavoidance.png
-  path: /images/colisionavoidance.png
+   teaser: colisionavoidance-thumbnail.png
+   path: /images/colisionavoidance-thumbnail.png
 wordpress_id: 782
 categories:
 - articles

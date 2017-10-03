@@ -8,8 +8,8 @@ slug: remote-controlled-sailing-practice
 title: Remote Controlled Sailing Practice
 wordpress_id: 286
 image:
-    teaser: practice.png
-    path: /images/practice.png
+   teaser: practice-thumbnail.png
+   path: /images/practice-thumbnail.png
 categories:
 - articles
 ---

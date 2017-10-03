@@ -8,8 +8,8 @@ slug: two-things-can-prevent-us-from-sailing-at-wrsc2016
 title: Two things can prevent us from sailing at WRSC2016...
 wordpress_id: 242
 image:
-  teaser: default.png
-  path: /images/default.png
+  teaser: default-thumbnail.png
+  path: /images/default-thumbnail.png
 categories:
 - articles
 ---
