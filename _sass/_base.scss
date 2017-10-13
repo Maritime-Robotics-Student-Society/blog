@@ -67,6 +67,9 @@ a {
 	&:active {
 		outline: 0;
 	}
+	img {
+		width: 100%;
+	}
 }
 
 /* Quoted text */
@@ -131,7 +134,7 @@ figure {
   a {
     img {
       /* Image hover animation */
-      @include transition(box-shadow 0.3s);
+			@include transition(box-shadow 0.3s);
       &:hover {
         box-shadow: 0 0 10px rgba($black, .20);
       }
