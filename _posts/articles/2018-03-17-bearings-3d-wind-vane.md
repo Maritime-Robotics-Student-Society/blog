@@ -4,8 +4,8 @@ comments: true
 date: 2018-03-17 18:57:46+00:00
 layout: article
 image:
-   teaser: logo.jpg
-   path: /images/logo.jpg
+   teaser: wind-vane-3d-view.png
+   path: /images/wind-vane-3d-view.png
 published: false
 title: "Wind vane design"
 categories:
@@ -45,3 +45,4 @@ so they can be used without grease, removing the viscous resistance that we were
 This might be an alternative to our current design, but because of the high price of those bearings, we have decided 
 not to use them yet.
 
+The files of the latest design can be found [here](https://github.com/Maritime-Robotics-Student-Society/Boat-construction/tree/master/Wind_Vane/v3)
