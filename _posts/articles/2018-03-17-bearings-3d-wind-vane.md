@@ -11,18 +11,25 @@ title: "Wind vane design"
 categories:
 - articles
 ---
+We are currently looking to redesign our wind vane for many reasons. Firstly, we are looking into smaller sailing robots,
+called footies, which require a much smaller wind vane, than our big robot, Black Python. Secondly, we want to reduce
+the weight that is added to the top of the mast, and finally we want to create a nice platform that can house and protect
+all the electronics that are going to be added to the mast. Because we are redesigning electronic circutry that connects 
+all sensor (GPS,IMU and WiFi) to the Raspberry Pi, as explained in a later blog post, to eliminate as many wires as possible,
+we needed a new support for those. This new design can be scaled by modifying just a few top level paramenters, such as 
+the size of the fin. The parametric design automatically rescales the wind vane in order to keep the centre of mass exactly
+above the support. This ensures that the wind vane spins with the least possible friction and reacts to the smallest 
+changes in the wind's direction.
 
-As we started to look more and more into footies, the need for a scalable wind vane design became apparent,
-as we needed a wind vane for the small boats and for the bigger one. This new design can be scaled by 
-modifying just a few top level paramenters, such as the size of the fin. The centre of mass is always kept
-at the support, regardless of the values of the top level parameters. This ensures that the wind vane spins
-with the least possible friction and reacts to the smallest changes in the wind's direction.
+The first wind vane we used was the smallest one we were able to find and buy. The fact that this was unscalable and that
+designing a support for the electronics was adding a lot of extra material and weight, made us decide to not use this one,
+but design our very own wind vane from scratch.
 
 Our first prototype used a steel bearing to separate the rotating part of the vane from its support. Although
 it was spinning without friction, due to the bearing, it was not reacting to small changes in the wind's direction
 as the viscous grease in the bearing was providing some resistance. Removing the grease wouldn't have been a 
-solution, due to the higly corrosive enviroment of the sea. The second prototype ditched the idea of a standard bearing
-and used a much simpler way of reducing friction. The rotating body of the vane would be separated from its support
+solution, due to the higly corrosive enviroment of the sea. For the second prototype, we stumbled upon [this](https://www.westcoastweathervanes.com/instructions-for-installing-your-weathervane-on-a-galvanized-pipe-or-wooden-post/) 
+article, that gave us a very idea for reducing friction. The rotating body of the vane would be separated from its support
 using one ball bearing resting on top of a metal rod with a flat top surface. Due to the low weight of the rotating body,
 friction between the ball and the metal surface would be minimal, so the vane can react even to the smallest
 changes in wind direction.
@@ -37,9 +44,13 @@ vane. This support also needs to accomodate all the electronics that are necesar
 is done using rubber bands, which makes it very easy to remove if we need to change the sails and the mast.
 
 The wind vane was 3D printed using ABS and PLA plastic for different components due to difficulties in the
-manufacturing process. After manufacturing, it was clear that the centre of mass was not in the correct position,
-because of the different fillings that occur in 3D printing process. To eliminate this, we've added some weights
-on one end of the vane. 
+manufacturing process. We used PLA for the bigger components as shrinking of the plastic would not pose such a bad problem.
+ABS was used for the rest of them as it was more easily available. After manufacturing, the centre of mass was not quite 
+in the right stop. To eliminate this, we've added some weights on one end of the vane. 
+
+![Wind vane iterations](/images/wind-vanes.jpg)
+
+The three wind vanes that are discussed in this post
 
 A very interesting discovery that we have made recently, are zirconium dioxide bearings (ZrO2), that do not corrode,
 so they can be used without grease, removing the viscous resistance that we were experiencing in our first prototype.
