@@ -43,10 +43,14 @@ where the wind is not disrupted by the water or even the robot itself. This way 
 vane. This support also needs to accomodate all the electronics that are necesary. Attaching the vane to the mast
 is done using rubber bands, which makes it very easy to remove if we need to change the sails and the mast.
 
+![Wind vane attached to the boat](/images/wind-vane-on-mast.jpg =250x)
+
+Wind vane attached to the boat's mast
+
 The wind vane was 3D printed using ABS and PLA plastic for different components due to difficulties in the
 manufacturing process. We used PLA for the bigger components as shrinking of the plastic would not pose such a bad problem.
 ABS was used for the rest of them as it was more easily available. After manufacturing, the centre of mass was not quite 
-in the right stop. To eliminate this, we've added some weights on one end of the vane. 
+in the right spot. To eliminate this, we've added some weights on one end of the vane. 
 
 ![Wind vane iterations](/images/wind-vanes.jpg)
 
