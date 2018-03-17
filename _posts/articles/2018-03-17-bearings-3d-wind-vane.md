@@ -34,14 +34,14 @@ Wind vane assembly, section view
 The support of the wind vane is designed to fit perfectly on the mast of the robot, high above the water level,
 where the wind is not disrupted by the water or even the robot itself. This way we minimise the flutter of the
 vane. This support also needs to accomodate all the electronics that are necesary. Attaching the vane to the mast
-is done using rubber bands, which makes it very easy to remove is we need to change the sails and the mast.
+is done using rubber bands, which makes it very easy to remove if we need to change the sails and the mast.
 
 The wind vane was 3D printed using ABS and PLA plastic for different components due to difficulties in the
-manufacturing procces. After manufacturing, it was clear that the centre of mass was not in the correct position,
-because of the different fillings that occur in 3D printing procces. To eliminate this, we've added some weights
+manufacturing process. After manufacturing, it was clear that the centre of mass was not in the correct position,
+because of the different fillings that occur in 3D printing process. To eliminate this, we've added some weights
 on one end of the vane. 
 
-A very interesting dicorvery that we have made recently, are zirconium oxide bearings (ZrO2), that do not corrode,
+A very interesting discovery that we have made recently, are zirconium dioxide bearings (ZrO2), that do not corrode,
 so they can be used without grease, removing the viscous resistance that we were experiencing in our first prototype.
 This might be an alternative to our current design, but because of the high price of those bearings, we have decided 
 not to use them yet.
