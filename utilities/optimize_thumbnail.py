@@ -14,6 +14,8 @@ for type in types:
         with file.open() as f:
             txt = f.read()
             image_path = re.search(pat, txt).group(1)
+            if '-thumbnail' in image_path:
+                continue
             save_path = (os.path.splitext(image_path)[0] + '-thumbnail' + os.path.splitext(image_path)[1])
             newtxt = re.sub(pat, '\n   path: ' + save_path , txt)
             with file.open('w') as f:
