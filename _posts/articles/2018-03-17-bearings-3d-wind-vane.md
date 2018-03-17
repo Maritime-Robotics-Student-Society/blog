@@ -43,7 +43,9 @@ where the wind is not disrupted by the water or even the robot itself. This way 
 vane. This support also needs to accomodate all the electronics that are necesary. Attaching the vane to the mast
 is done using rubber bands, which makes it very easy to remove if we need to change the sails and the mast.
 
-<img src="/images/wind-vane-on-mast.jpg" height="400">
+<img src="/images/wind-vane-on-mast.jpg" style="
+    height: 400px;
+">
 
 Wind vane attached to the boat's mast
 
