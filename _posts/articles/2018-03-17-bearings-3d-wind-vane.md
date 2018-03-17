@@ -28,7 +28,8 @@ friction between the ball and the metal surface would be minimal, so the vane ca
 changes in wind direction.
 
 ![Wind vane assembly](/images/wind-vane.png)
-Wind vane assembly
+
+Wind vane assembly, section view
 
 The support of the wind vane is designed to fit perfectly on the mast of the robot, high above the water level,
 where the wind is not disrupted by the water or even the robot itself. This way we minimise the flutter of the
