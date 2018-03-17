@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: wind-vane-3d-view.png
    path: /images/wind-vane-3d-view-thumbnail.png
-published: false
+published: true
 title: "Wind vane design"
 categories:
 - articles
