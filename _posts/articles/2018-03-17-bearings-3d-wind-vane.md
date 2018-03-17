@@ -5,7 +5,7 @@ date: 2018-03-17 18:57:46+00:00
 layout: article
 image:
    teaser: wind-vane-3d-view.png
-   path: /images/wind-vane-3d-view.png
+   path: /images/wind-vane-3d-view-thumbnail.png
 published: false
 title: "Wind vane design"
 categories:
