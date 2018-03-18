@@ -20,7 +20,7 @@ The wind is our only source of energy. It gives us hope, it gives us life. But w
 
 
 
-[caption id="attachment_448" align="alignnone" width="1500"]![rahsgakbfdascj.jpg](https://sailrobot.files.wordpress.com/2016/08/rahsgakbfdascj.jpg) (Source: http://www.cruisingoutpost.com/2014/01/points-of-sail/)[/caption]
+[caption id="attachment_448" align="alignnone" width="1500"]![rahsgakbfdascj.jpg](/images/wordpress/rahsgakbfdascj.jpg) (Source: http://www.cruisingoutpost.com/2014/01/points-of-sail/)[/caption]
 
 The picture above very politely describes the lingo used for the different angles a boat can be relative to the wind, among other things. Let’s elaborate a little more.
 

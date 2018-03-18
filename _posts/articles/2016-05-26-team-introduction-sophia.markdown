@@ -22,7 +22,7 @@ Since we are asking you to [fund](https://southampton.hubbub.net/p/sailrobot) ou
 We will start with Sophia, she is the Sailing Robot Team Leader. Mainly this means that she starts all Wednesday meetings, listing what work needs doing, starting discussions for decisions that need to be made and checking that everyone knows what they are working on this week. Besides that, she works a lot with ROS, since she also uses it for [her PhD in the area of Autonomous Underwater Vehicles](http://www.southampton.ac.uk/engineering/postgraduate/research_students/sms4g13.page?). Sometimes she writes posts for the blog as well. Sophia first got interested in sailing robots (and through that, sailing) during her MSc Project in this area.
 
 
-![20160305_144100.jpg](https://sailrobot.files.wordpress.com/2016/05/20160305_1441002.jpg?w=485)
+![20160305_144100.jpg](/images/wordpress/20160305_1441002.jpg)
 
 You can find her on:
 

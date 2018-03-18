@@ -31,7 +31,7 @@ Before launching our boat in water, we decided to run some tests outside, in the
   * Sail between three GPS coordinates
 
 
-![gps](https://sailrobot.files.wordpress.com/2016/04/gps.png)
+![gps](/images/wordpress/gps.png)
 
 
 

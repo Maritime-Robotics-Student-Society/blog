@@ -16,9 +16,9 @@ categories:
 
 This Saturday was a very exciting day for us: We finally put all our electronics on a boat and let it go!
 
-![dfd](https://sailrobot.files.wordpress.com/2016/06/dfd.jpg?w=680)
+![dfd](/images/wordpress/dfd.jpg)
 
-![sfs](https://sailrobot.files.wordpress.com/2016/06/sfs.jpg) Our boat equipped with sensors; and finally on the water. By the way, you can get the photo at the bottom as a postcard. Click [here](https://southampton.hubbub.net/p/sailrobot) to see how.
+![sfs](/images/wordpress/sfs.jpg) Our boat equipped with sensors; and finally on the water. By the way, you can get the photo at the bottom as a postcard. Click [here](https://southampton.hubbub.net/p/sailrobot) to see how.
 
 Overall we were very happy with our results:
 
@@ -45,7 +45,7 @@ Overall we were very happy with our results:
 
 We ran into two problems though: Continuous tacking and … no wind … again!
 
-[![lol.jpg](https://sailrobot.files.wordpress.com/2016/06/lol.jpg) The mirror like water surface makes for wonderful photos, but we would prefer sailing our robot.
+[![lol.jpg](/images/wordpress/lol.jpg) The mirror like water surface makes for wonderful photos, but we would prefer sailing our robot.
 
 In our sailing state machine we have to tune our conditions for going into tacking mode a bit finer, and probably also introduce different values for the ‘almost no wind’ condition we keep having. One thing we definitely learn in this progress: Some things you just have to be patient with and accept. No wind is no wind, but luckily we have our Landyacht MacGyver for testing in those conditions.
 

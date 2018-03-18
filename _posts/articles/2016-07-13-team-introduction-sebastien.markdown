@@ -19,7 +19,7 @@ A former Intern at FSI, Sébastien although was only in Southampton for a short
 
 PS: It is also Sébastien who made our crowdfunding video and all the videos under our [YouTube channel](https://www.youtube.com/channel/UCTyD1mkkHjv4Pt5DJc9eMsQ)!
 
-![seb](https://sailrobot.files.wordpress.com/2016/02/seb.jpg)
+![seb](/images/wordpress/seb.jpg)
 
 You can find him on:
 

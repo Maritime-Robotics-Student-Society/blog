@@ -16,10 +16,10 @@ categories:
 
 That's right. No kidding. We are officially the champions for 2016's World Robotic Sailing Championship (microsailboat class)! And at our very first try no less! It's been a week that's equal parts challenging, exciting, excruciating and rewarding. We've made our mistakes, but we've definitely learned a ton. We'll be coming back next year armed with way more knowledge than ever.
 
-![img_4663](https://sailrobot.files.wordpress.com/2016/09/img_4663.jpg) Wooo[/caption]
+![img_4663](/images/wordpress/img_4663.jpg) Wooo[/caption]
 
 A big thank you to all our sponsors for making this opportunity a reality. And of course, to everyone else who cheered us on, wherever you may be. We couldn't have done it without all of your support!
 
 So, until next year everyone!
 
-![farewell](https://sailrobot.files.wordpress.com/2016/09/farewell.png)
+![farewell](/images/wordpress/farewell.png)

@@ -16,7 +16,7 @@ categories:
 
 Pier is a Ship Science student, and currently a summer intern in FSI, working on a Raspberry Pi ROV - his experience from our team will surely come in handy there! Usually though he is in charge of the boat construction, since he has a lot of hands on experience maintaining a (full scale) sailing boat. He designed our deck, making sure we have nothing on it that our sheets could get stuck on and we have a lot of space for batteries and electronics. Now he is in control of making said deck from carbon fibre, and assembling all the small parts that make our complete boat. So, with a HO HE HO HO, soon our Pi(e)rate ship will be finished and sailing the seven seas autonomously!
 
-![hjh.jpg](https://sailrobot.files.wordpress.com/2016/06/hjh.jpg)
+![hjh.jpg](/images/wordpress/hjh.jpg)
 
 You can find him on:
 

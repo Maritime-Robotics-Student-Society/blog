@@ -126,4 +126,4 @@ We ourselves can’t wait to get some sailing robot stickers and post cards!
 
 
 
-[caption id="attachment_402" align="aligncenter" width="428"]![Untitled.png](https://sailrobot.files.wordpress.com/2016/07/untitled1.png) With your support we are conjuring up a sailing robot![/caption]
+[caption id="attachment_402" align="aligncenter" width="428"]![Untitled.png](/images/wordpress/untitled1.png) With your support we are conjuring up a sailing robot![/caption]

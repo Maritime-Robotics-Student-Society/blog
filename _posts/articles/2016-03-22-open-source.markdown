@@ -22,4 +22,4 @@ This is the work we are building on:
 
 
 
-![open source](https://sailrobot.files.wordpress.com/2016/03/open-source1.png)
+![open source](/images/wordpress/open-source1.png)

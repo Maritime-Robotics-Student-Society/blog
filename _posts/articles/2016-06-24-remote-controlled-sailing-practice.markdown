@@ -20,11 +20,11 @@ By the way, you can get some remote controlled sailing lessons with us: Just cho
 
 We finally got a little bit of wind this evening, so we took them sailing in the Southampton common. The boats attracted quite an excited crowd, and we hope that some of them found their way here to our [blog](https://sailrobot.wordpress.com/news/).
 
-![lkae](https://sailrobot.files.wordpress.com/2016/06/lkae.jpg)
+![lkae](/images/wordpress/lkae.jpg)
 
 Our boat needed rescuing from water plants several times, so a few days later we went to the Itchen river. There we had less problems with plants - instead we had to fight strong currents and got our bulb stuck in the mud. Chest waders are a great invention!
 
-![lkame.jpg](https://sailrobot.files.wordpress.com/2016/06/lkame.jpg)
+![lkame.jpg](/images/wordpress/lkame.jpg)
 
 Why did we decide to build our own hull and not just use the RC Laser boat we hear you ask?
 

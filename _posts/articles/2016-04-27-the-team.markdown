@@ -16,4 +16,4 @@ post_format:
 - Image
 ---
 
-![File_004](https://sailrobot.files.wordpress.com/2016/04/file_004.jpeg)
+![File_004](/images/wordpress/file_004.jpeg)

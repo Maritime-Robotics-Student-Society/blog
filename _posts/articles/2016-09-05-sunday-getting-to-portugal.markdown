@@ -16,7 +16,7 @@ categories:
 
 The week has finally arrived - we’re flying to Portugal today! We arrived at uni at 10 in the morning, to give ourselves a healthy three hours to pack everything before our taxi shows up. Once that was all done, and the Black Python was safe and secure in its box, of which was bubble-wrapped, we got into our taxi, and off to Stansted.
 
-[caption id="attachment_477" align="alignnone" width="1600"]![sophia photo](https://sailrobot.files.wordpress.com/2016/09/sophia-photo.jpg) Getting some needed shut-eye while on our way to the airport[/caption]
+[caption id="attachment_477" align="alignnone" width="1600"]![sophia photo](/images/wordpress/sophia-photo.jpg) Getting some needed shut-eye while on our way to the airport[/caption]
 
 Got stopped at the security over all of our electronics, as expected. But apart from that it was a (relatively) speedy stroll into our aeroplane, and off we flew!
 

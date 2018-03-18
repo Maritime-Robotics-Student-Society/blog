@@ -16,7 +16,7 @@ categories:
 
 We got a new boat! It’s called the Black Python. Because it’s white.
 
-![ERTYGUHIJOK.jpg](https://sailrobot.files.wordpress.com/2016/08/ertyguhijok.jpg)
+![ERTYGUHIJOK.jpg](/images/wordpress/ertyguhijok.jpg)
 
 Things we tested today:
 

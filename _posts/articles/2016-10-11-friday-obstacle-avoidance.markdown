@@ -16,11 +16,11 @@ categories:
 
 Final challenge of the competition - make runs up and down a rectangular pathway in the water. At the third or fourth run, orange buoys will be placed in the middle, and across the entire width, of the path. The boat must then recognise and sail round the buoys, then back in the path’s area, and complete the run to finish. Also the standings so far are.... we are joint second!
 
-![20160909_100752.jpg](https://sailrobot.files.wordpress.com/2016/10/20160909_100752.jpg) Slightly confusing I know, but take our word for it. Plus you know our final score anyway[/caption]
+![20160909_100752.jpg](/images/wordpress/20160909_100752.jpg) Slightly confusing I know, but take our word for it. Plus you know our final score anyway[/caption]
 
 We started off the day with solving why our boat was going off in weird directions. We figured that this happened because we had removed our heeling compensation, since it never was seemingly effective during boat calibration. Thomas focused on the faulty compensation, while Sophia and Sebastien got on the rib with the boat to record some images of the buoys. We stuck a GoPro on the Black Python's nose to do this. The great outdoors proved too bright for the camera though. A little brainstrorming later, we came to our ingenious solution:
 
-![img_20160909_154507](https://sailrobot.files.wordpress.com/2016/10/img_20160909_154507.jpg) Radical.
+![img_20160909_154507](/images/wordpress/img_20160909_154507.jpg) Radical.
 
 Turns out our heeling compensation works swimmingly. In fact we could have used it since Day One. It never was faulty during calibration at all. Oh well.
 

@@ -29,4 +29,4 @@ So, we took full advantage our well-deserved IOU. We made a couple changes in ou
 
 And with that, we got some improvements. We reached all our waypoints reliably and, considering the weak wind conditions, surprisingly fast!
 
-[caption id="attachment_442" align="alignnone" width="1600"]![da.jpg](https://sailrobot.files.wordpress.com/2016/08/da.jpg) Sailing robot's perspective at its human operators[/caption]
+[caption id="attachment_442" align="alignnone" width="1600"]![da.jpg](/images/wordpress/da.jpg) Sailing robot's perspective at its human operators[/caption]

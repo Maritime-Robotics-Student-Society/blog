@@ -28,4 +28,4 @@ For sailing, a human is needed to plan the route, sense the direction of the win
   * Brain is replaced by computers
 
 
-![from sailor](https://sailrobot.files.wordpress.com/2016/06/from-sailor.png)
+![from sailor](/images/wordpress/from-sailor.png)
