@@ -30,7 +30,7 @@ than serial to avoid adding another 2 cables. Because we knew the IMU has a volt
 circuit to 3.3V, the level we needed, we decided to take a closer look at the schematic of
 the sensor, which can be found [here](https://www.pololu.com/file/0J772/altimu-10-v4-schematic-diagram.pdf).
 
-![IMU Schematic](images/0J5198.1200.png)
+![IMU Schematic](/images/0J5198.1200.png)
 
 IMU schematic
 Researching how I2C waveform looks, we learned that both lines (SCL and SDA) are pulled high
@@ -47,7 +47,7 @@ we indeed saw an I2C level of 3.3V. The two transistors, togheter with the pull-
 forming a level shifting circuit, which was stepping the I2C level to VIN. This circuit was very
 similar to the one of a bidirectional level shifter.
 
-![Lvl shifter](images/Logic_Level_Bidirectional-1.jpg)
+![Lvl shifter](/images/Logic_Level_Bidirectional-1.jpg)
 
 Logic level shifter schematic.
 
