@@ -40,7 +40,7 @@ to the D+ and D- lines of the USB, when the mouse was plugged in, showed us a
 signal that was nothing what we expected. It was clear that USB, at least in this case,
 doesn't use just 2 voltage levels, like I2C, but many more.
 
-![USB mouse](images/USB_mouse.png)
+![USB mouse](/images/USB_mouse.png)
 
 Signal waveform of the mouse, D+ on channel 1 and D- on channel 0
 
@@ -54,7 +54,7 @@ We used the same setup to look at the WiFi dongle's signal waveform, to see why 
 work, while the mouse does. As we connected the dongle, we saw a very different kind of
 signal, one which looked very similar to a clock signal, but on two distinct levels.
 
-![Wifi waveform](images/USB_wifi.png)
+![Wifi waveform](/images/USB_wifi.png)
 
 Signal waveform on connecting the WiFi dongle to the laptop
 
