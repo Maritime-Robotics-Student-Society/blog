@@ -24,12 +24,12 @@ in order to save weight, to reduce the cost and facilitate repairs.
 
 For our first attempt, we soldered 2 metre long wires directly to the USB 
 pins of the dongle and connected the other ends to a cut USB cable, which 
-was plugged into the Raspberry Pi. We were not able to detect the WiFi dongle
-and when it plugged into a laptop, it was showing as an unreconginesd USB device.
+was plugged into the Raspberry Pi. We were not able to detect the WiFi signal
+and when plugged into a laptop, it was showing as an unreconginesd USB device.
 Not even shortening the wires helped, the WiFi was still not showing up. We
 decided that soldering directly to the WiFi dongle was a bad idea, so for our
 second attempt we soldered a female USB plug to the long wires, into which the
-dongle was plugged in as well. Connecting this setup to a laptop did not work again.
+dongle was plugged in. Connecting this setup to a laptop did not work again.
 It was still showing up as an unrecognised device, but when tested with an USB mouse,
 everything seemed to work just fine. The cursor on the screen was in fact moving,
 and we couldn't observe any difference when we connected the mouse directly to the laptop.
@@ -48,11 +48,11 @@ USB uses two data lines, that work opposite from each other, so that their volta
 sum is always the same. Those two lines are physically very close to each other so
 they are very likely to pick up the same electrical noise. This noise can be filtered
 out as the sum of the two lines is known, so any inconsistency against this know sum is
-electrical noise.
+electrical noise, which is then substracted from each of the two lines.
 
 We used the same setup to look at the WiFi dongle's signal waveform, to see why this doesn't
 work, while the mouse does. As we connected the dongle, we saw a very different kind of
-signal, one which looked very similar to a clock signal, but on two distinct levels.
+signal, one which looked very similar to a digital clock signal, but on two distinct levels.
 
 ![Wifi waveform](/images/USB_wifi.png)
 
@@ -60,9 +60,10 @@ Signal waveform on connecting the WiFi dongle to the laptop
 
 This time, the two probes were connected on the same data line, one very close to the 
 dongle and the other close to the laptop, because we wanted to see if there's any voltage
-loss across the long wires, which wuld affect the signal quality, but it appeared to 
-not be any, which was good news for us, but the WiFi was still showing up as an unrecognised
-USb device. Trying to probe the signal as the mouse was connected, was showing again the 
+loss across the long wires, which would affect the signal quality, but it appeared to 
+not be any, which was good news for us, meaning that the wires don't have enough impedance to affect the signal
+but the WiFi was still showing up as an unrecognised
+USB device. Trying to probe the signal as the mouse was connected, was showing again the 
 previous waveform, the one on multiple voltage levels, rather than the strange clock-looking
 one. Probing the 5V and the GND lines showed us that the voltage levels stays constant when
 any device is connected, so that wasn't the issue.
