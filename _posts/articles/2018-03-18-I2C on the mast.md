@@ -40,7 +40,8 @@ the sensor, which can be found [here](https://www.pololu.com/file/0J772/altimu-1
 
 ![IMU Schematic](/images/0J5198.1200.png)
 
-IMU schematic
+IMU schematic highlighting the two pull-up resistors considered
+
 Researching how I2C waveform looks, we learned that both lines (SCL and SDA) are pulled high
 by pull-up resitors and when data is being transmitted, the microchips pull the lines low, so
 induvidual bitsof data can be sent this way. Those bits are usually sent in groups of 8
