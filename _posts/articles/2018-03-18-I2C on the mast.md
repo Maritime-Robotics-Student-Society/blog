@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: IMG_mast_elec2.jpg
    path: /images/IMG_mast_elec2-thumbnail.jpg
-published: published
+published: true
 title: "I2C on the mast"
 categories:
 - articles
