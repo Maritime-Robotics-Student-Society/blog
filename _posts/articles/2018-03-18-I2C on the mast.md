@@ -4,8 +4,8 @@ comments: true
 date: 2018-03-18 18:57:46+00:00
 layout: article
 image:
-   teaser: wind-vane-3d-view.png
-   path: /images/wind-vane-3d-view-thumbnail.png
+   teaser: IMG_mast_elec2.jpg
+   path: /images/IMG_mast_elec2.jpg
 published: false
 title: "I2C on the mast"
 categories:
@@ -21,7 +21,15 @@ from electrical noise. In our case, shielding would have added a lot of weight,
 which was undesirable. Another challenge we found was that powering the IMU with 5V,
 the level required by the WiFi, would make it output I2C on a 5V level, which would
 have been incompatible with the GPS or the Raspberry Pi. Previously, we were powering
-the IMU and the GPS with 3.3V and communicating with the GPS via serial. 
+the IMU and the GPS with 3.3V and communicating with the GPS via serial.
+
+| Device       | Communication protocol     | Voltage level |
+| :------------- |:-------------:| -----:|
+| WiFi dongle    | USB | 5V |
+| IMU     | I2C only      |   3.3-5V |
+| GPS | I2C or Serial     |    3.3V |
+
+Table explaining all the electronics requirements
 
 Adding the WiFi dongle meant we needed a 5V line going up, but the IMU had an integrated
 voltage sted down circuit to 3.3V so we were able to easily power the GPS of that, but the
