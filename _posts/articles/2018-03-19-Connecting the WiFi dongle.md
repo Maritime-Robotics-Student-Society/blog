@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: wi-fi-2119225_640.png
    path: /images/wi-fi-2119225_640-thumbnail.png
-published: false
+published: true
 title: "Connecting the WiFi dongle"
 categories:
 - articles
