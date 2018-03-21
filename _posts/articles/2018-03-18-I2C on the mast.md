@@ -13,7 +13,7 @@ categories:
 ---
 
 Togheter with the new design of the wind vane, we decided to redesign the wiring
-between the electronics situated on the mast(IMU, GPS and Wifi) and the Raspberry Pi. One of the main
+between the electronics situated on the mast (IMU, GPS and Wifi) and the Raspberry Pi. One of the main
 reasons why we decided to do this is because we wanted to move the WiFi dongle from
 inside the boat, to the top of the mast where the signal would be far better. This
 posed a couple of challenges. First of all, USB cables are usually well shielded 
@@ -31,7 +31,7 @@ the IMU and the GPS with 3.3V and communicating with the GPS via serial.
 
 Table explaining all the electronics requirements
 
-Adding the WiFi dongle meant we needed a 5V line going up, but the IMU had an integrated
+Adding the WiFi dongle meant we needed a 5V line going up on the mast, but the IMU had an integrated
 voltage sted down circuit to 3.3V so we were able to easily power the GPS of that, but the
 I2C level incompatibility still remained, as we wanted to have the GPS on I2C as well, rather
 than serial to avoid adding another 2 cables. Because we knew the IMU has a voltage step down
@@ -44,12 +44,12 @@ IMU schematic highlighting the two pull-up resistors considered
 
 Researching how I2C waveform looks, we learned that both lines (SCL and SDA) are pulled high
 by pull-up resitors and when data is being transmitted, the microchips pull the lines low, so
-induvidual bitsof data can be sent this way. Those bits are usually sent in groups of 8
-forming bytes, which are then converted into sensible values in in the code.
-It was easy to see that the VIN(which is where we were powering the IMU with 5V) voltage 
+individual bits of data can be sent. Those bits are usually sent in groups of 8
+forming bytes, which are then converted into sensible values by the code.
+It was easy to see that the VIN (the pin that feeds into the voltage step down circuit, which is where we were powering the IMU with 5V) voltage 
 was only connected on the I2C lines through pull up resitors and that the chip was working
 entirely on 3.3V. Because we knew that if the VIN pin is floating and we power the chip directly
-with 3.3V, bypassing the voltage step down circuit, the IMU would output on a 3.3V level, we 
+with 3.3V (on the VCC pin which bypasses the voltage step down circuit) the IMU would output on a 3.3V level, we 
 decided to look into what would happen if we remove the two pull-up resitors. By looking at the
 voltage level before the two transistors (Q1 and Q2 on the schematic) using a logic level analyser
 we indeed saw an I2C level of 3.3V. The two transistors, togheter with the pull-up resitors were
@@ -64,7 +64,7 @@ We identified the two pull-up resitors that we wanted to remove by tracing the c
 on the IMU's board and by probing the board with a multimeter. Removing them proved to be
 straight forward. The Raspberry Pi has pull-up resitors for 3.3V level, so the lines where not
 left floating at any time. Testing the modified sensor, we immediatly saw that the I2C level
-dropped at 3.3V even when it was powered with 5V, which was exactly what we wanted. 
+dropped to 3.3V even when it was powered with 5V, which was exactly what we wanted. 
 
 Adding a separate level shifter on the mast would have worked just as well probably, but this
 would have exposed more circuitry to the enviroment and we wanted to avoid as much as possible
