@@ -49,7 +49,7 @@ forming bytes, which are then converted into sensible values by the code.
 It was easy to see that the VIN (the pin that feeds into the voltage step down circuit, which is where we were powering the IMU with 5V) voltage 
 was only connected on the I2C lines through pull up resitors and that the chip was working
 entirely on 3.3V. Because we knew that if the VIN pin is floating and we power the chip directly
-with 3.3V (on the VCC pin which bypasses the voltage step down circuit) the IMU would output on a 3.3V level, we 
+with 3.3V (on the VDD pin which bypasses the voltage step down circuit) the IMU would output on a 3.3V level, we 
 decided to look into what would happen if we remove the two pull-up resitors. By looking at the
 voltage level before the two transistors (Q1 and Q2 on the schematic) using a logic level analyser
 we indeed saw an I2C level of 3.3V. The two transistors, togheter with the pull-up resitors were
