@@ -5,7 +5,7 @@ date: 2018-03-19 18:57:46+00:00
 layout: article
 image:
    teaser: wi-fi-2119225_640.png
-   path: /images/wi-fi-2119225_640.png
+   path: /images/wi-fi-2119225_640-thumbnail.png
 published: false
 title: "Connecting the WiFi dongle"
 categories:

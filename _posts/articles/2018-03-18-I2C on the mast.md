@@ -5,7 +5,7 @@ date: 2018-03-18 18:57:46+00:00
 layout: article
 image:
    teaser: IMG_mast_elec2.jpg
-   path: /images/IMG_mast_elec2.jpg
+   path: /images/IMG_mast_elec2-thumbnail.jpg
 published: false
 title: "I2C on the mast"
 categories:
