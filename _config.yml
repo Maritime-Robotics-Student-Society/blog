@@ -63,3 +63,77 @@ exclude:
   - spec
   - tmp
   - vendor
+
+# Data, which shall hold all of our authors (until I figure out a better solution)
+data:
+  authors:
+    camil:
+      name: Camil
+      avatar:
+      web:
+      bio: Camil is a man on a mission
+    sailrobot:
+      name: Sailrobot
+      avatar:
+      web:
+      bio: Sailrobot seeks world domination
+    elisavet8:
+      name: Elisavet
+      avatar:
+      web:
+      bio: Elisavet seeks world domination
+    sms4g13:
+      name: Sophia
+      avatar:
+      web:
+      bio: Sophia seeks world domination
+    pierbiag:
+      name: Pier
+      avatar:
+      web:
+      bio: Pier seeks world domination
+    simsoton:
+      name: Zhong-yuen
+      avatar:
+      web:
+      bio: Zhong-yuen seeks world domination
+    smaria:
+      name: Sophia
+      avatar:
+      web:
+      bio: Sophia seeks world domination
+    superwool:
+      name: Zhong-yuen
+      avatar:
+      web:
+      bio: Zhong-yuen seeks world domination
+    alvaropp:
+      name: Alvaro
+      avatar:
+      web:
+      bio: Alvaro seeks world domination
+    tony:
+      name: Tony
+      avatar:
+      web:
+      bio: Tony seeks world domination
+    sophia:
+      name: Sophia
+      avatar:
+      web:
+      bio: Sophia seeks world domination
+    thomas:
+      name: Thomas
+      avatar:
+      web:
+      bio: Thomas seeks world domination
+    zhongyuenlee:
+      name: Zhong-yuen
+      avatar:
+      web:
+      bio: Zhong-yuen is just trying to hold on
+    nanoseb:
+      name: Seb
+      avatar:
+      web:
+      bio: Seb seeks world domination
