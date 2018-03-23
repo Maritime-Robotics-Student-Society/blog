@@ -1,0 +1,18 @@
+// page-footer.scss
+/**
+ * This file for now is meant to set the styles for when we don't yet have an avatar
+ * for an author for a blog post.
+*/
+
+// This styles the author's initial that'll be used as their avatar when we don't
+// yet have an image for them.
+.author-image .fallback {
+	display: table;
+	width: 100px;
+    text-align: center;
+    span {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+    }
+}
