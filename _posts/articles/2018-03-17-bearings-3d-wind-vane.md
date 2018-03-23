@@ -1,5 +1,5 @@
 ---
-author: Camil
+author: camil
 comments: true
 date: 2018-03-17 18:57:46+00:00
 layout: article
