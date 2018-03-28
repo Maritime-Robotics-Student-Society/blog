@@ -1,0 +1,4 @@
+setuptools>=39.0.1
+Pillow>=3.1.0
+pathlib>=1.0.1
+python-resize-image>=1.1.11
