@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 # This file creates a thumbnail for an article, which is just a smaller version
 # of the image that an article references. The relative path to the image an
@@ -51,5 +51,5 @@ for type in types:
             img.save(save_path, img.format)
             # Print the path to the edited MD file and the newly-created
             # thumbnail so that the hook can add the files to the commit
-            print str(file)
-            print save_path
+            print(str(file))
+            print(save_path)
