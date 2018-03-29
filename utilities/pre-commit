@@ -22,20 +22,35 @@ CLEAR="\e[39m"
 # staged too
 run_optimise_thumbnail_script() {
     # Get the root of the project
-    root="$(git rev-parse --show-toplevel)"
+    local root="$(git rev-parse --show-toplevel)"
+    # Create a temp file to write the python script output to
+    # -t flag is needed to ensure OSX usability, as recommended in
+    # https://tinyurl.com/ycx922hd
+    local temp=$(mktemp -p ${root} -t)
 
     echo -e "${CYAN}Optimising thumbnails...${CLEAR}"
-    python2 "${root}/utilities/optimize_thumbnail.py" $root > temp
-    echo -e "${GREEN}Thumbnail creation complete! Staging these new changes...${CLEAR}"
-    # Pause for a bit so that you can see what's goin' on
-    sleep 2
+    # Check if pipenv is a global or a user install in the your machine
+    if hash pipenv 2>/dev/null; then
+        pipenv run python3 "${root}/utilities/optimize_thumbnail.py" $root > $temp
+    else
+        python3 -m pipenv run python3 "${root}/utilities/optimize_thumbnail.py" \
+                $root > $temp
+    fi
+    echo -e "${GREEN}Thumbnail creation complete! Staging these new changes...\
+            ${CLEAR}"
     # Read each line from the temp file to stage the thumbnailised files to commit
     while IFS='' read -r line || [[ -n "$line" ]]; do
         echo -e "${CYAN}Adding to commit:${CLEAR} $line"
         git add $line
-    done < temp
+    done < $temp
     # Delete the temp file
-    rm temp
+    rm $temp
+    # Pause for a bit so that you can see what's goin' on
+    polite_notice="${CYAN}The bottom blurb in your commit message window may not \
+            say that some of the files above are staged. They actually are. Why? \
+            Don't worry about it${CLEAR}"
+    echo -e $polite_notice
+    sleep 4
 }
 
 ### Script starts here ###
@@ -44,10 +59,11 @@ run_optimise_thumbnail_script() {
 # 2. We aren't removing the file, but adding/modifying it
 # Our function parameter will be a line from git diff --cached --name-status
 this_is_the_question="$(git diff --cached --name-status \
-    | awk '$1 != "D" && "/^_posts/articles/" $2 { print $2 }')"
+    | awk '$1 != "D" { print $2 }' \
+    | awk '/^_posts\/articles/ { print $1 }')"
 # If the above test passes, run the function above
 if [[ ! -z $this_is_the_question ]]; then
+    echo $this_is_the_question
     echo -e "${CYAN}Running thumbnail creation script...${CLEAR}"
     run_optimise_thumbnail_script
 fi
-exit 1
