@@ -64,8 +64,12 @@ exclude:
   - tmp
   - vendor
 
-# Data, which shall hold all of our authors (until I figure out a better solution)
 data:
+  navigation:
+    - title: About
+      url: /about
+    - title: Github
+      url: https://github.com/Maritime-Robotics-Student-Society/sailing-robot
   authors:
     camil:
       name: Camil
