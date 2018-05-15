@@ -15,5 +15,14 @@
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >{{ site.data.messages.locales[site.locale].written_by }} {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
-	<p class="author-bio">{{ author.bio }}</p>
+	<p class="author-bio">
+		{% if page.author_bio %}
+			{{ page.author_bio }}
+		{% comment %}
+			TO HAVE THE BIO DEFAULT TO THAT SET IN _CONFIG.YML, UNCOMMENT THIS BLOCK.
+		{% else %}
+			{{ author.bio }}
+		{% endcomment %}
+		{% endif %}
+	</p>
 </div><!-- ./author-content -->
