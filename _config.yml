@@ -68,6 +68,11 @@ exclude:
 # Bio is currently not used. Once we create actually proper default bios,
 # Then we will use em in articles.
 data:
+  navigation:
+    - title: About
+      url: /about
+    - title: Github
+      url: https://github.com/Maritime-Robotics-Student-Society/sailing-robot
   authors:
     camil:
       name: Camil
