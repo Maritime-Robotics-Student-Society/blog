@@ -64,7 +64,9 @@ exclude:
   - tmp
   - vendor
 
-# Data, which shall hold all of our authors (until I figure out a better solution)
+# Data, which shall hold data of all of our authors
+# Bio is currently not used. Once we create actually proper default bios,
+# Then we will use em in articles.
 data:
   authors:
     camil:
