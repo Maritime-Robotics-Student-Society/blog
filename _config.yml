@@ -64,6 +64,9 @@ exclude:
   - tmp
   - vendor
 
+# Data, which shall hold data of all of our authors
+# Bio is currently not used. Once we create actually proper default bios,
+# Then we will use em in articles.
 data:
   navigation:
     - title: About
