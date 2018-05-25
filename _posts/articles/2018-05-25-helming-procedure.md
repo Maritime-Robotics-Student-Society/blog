@@ -18,7 +18,7 @@ present a new component that have just been implemented and tested in water a co
 Since our first competition in Portugal in 2016, we have noticed that switching tack can be quite tricky on such small
 boats. There is several reasons for this, first you can imagine that a 1m boat in 10-20 cm waves can have issues with
 tacking. Then our boat, like most RC boats, just have one control to operate both the main sail and the jib, which is
-not ideal for fine tuning which is sometimes needed to tack.
+not ideal for the fine tuning that is sometimes needed to tack.
 
 
 Sailors know that on a proper sailing boat you try to time the moment you start a tack with the waves to make them help your maneuver,
@@ -32,7 +32,7 @@ Until now, to be able to switch tack in adverse weather we had a parameter that 
 even when beating upwind, because jibing is usually not an issue. However, it makes you loose quite some distance when
 trying to go upwind, and if you are against the current as well you sometimes can't even progress.
 
-To circumvent all of these issues we have implemented a new piece of component that is handling tacks. Our high-level
+To circumvent all of these issues we have implemented a new component to handle switching tacks. Our high-level
 code is taking care of the global path planning, how to go to a waypoint, how to stay in position etc. and when the boat
 needs to switch tack it will tell so to the helming node. This helming then have a list of procedure to handle
 tacks/jibes, and it will choose in this list which one to try. If a procedure doesn't succeed after a certain amount of
@@ -51,8 +51,11 @@ manoeuvres that were a success and negative to the failures to make the boat lea
 Something we are also working on is the wave detection and tack timing. Based on the sensors we have on board like the
 accelerometer, we can detect the progress of the boat on a wave and time the tack.
 
-In the end the helming node is a framework that allows us to implement and handle these procedures very easily, we just
+In the end the helming node is a framework that allows us to implement and handle these procedures very easily, now we just
 have to implement more of them and tune them to have the best in all weather conditions.
+
+Since our code is opensource, you can have a look at our implementation
+[here](https://github.com/Maritime-Robotics-Student-Society/sailing-robot/blob/master/src/sailing_robot/scripts/helming).
  
 
 
