@@ -1,12 +1,12 @@
 ---
 author: seb
 comments: true
-date: 2018-05-25 18:57:46+00:00
+date: 2018-05-26 18:57:46+00:00
 layout: article
 image:
    teaser: logo.jpg
    path: /images/logo.jpg
-published: false
+published: true
 title: "Helming node: some sailing knowledge inside a robot"
 categories:
 - articles
