@@ -24,7 +24,7 @@ First step was to ensure compatibility between the I2C level of the GPS, IMU and
 previous blog article, this was done by removing the two pull-up resistors from the IMU. At this point,
 we simply wired in the GPS to see if we can get some messages coming from it. We immediately saw
 messages coming from the GPS, but only about 40% of the messages where readable, as the rest of them 
-were not passing a checking algorithm that was designed to filter corrupted messages. Another issue 
+were not passing a checking algorithm (a basic message checksum) that was designed to filter corrupted messages. Another issue 
 that appeared was that through Serial, it was possible to write some messages to the GPS to filter out
 data we don't need and to increase the frequency of the readings, but some articles were saying that this
 cannot be done via I2C.
@@ -44,9 +44,9 @@ Waveform of the GPS signals and the spikes resulting from the parasitic capacita
 Further testing of the GPS only seemed to send messages at a frequency of 0.4-0.5 Hz, which was way less
 than the 5 Hz we were getting from Serial and not enough for us, as a position update every 2 seconds would
 make it very difficult to find out if we succeded a tack for example. Another issue we noticed was that the GPS settings sent via
-Serial were not surviving a reboot. This meant we needed to reprogram the GPS via Serial after each start up
+Serial were not surviving a reboot. This meant we needed to reprogram the GPS via Serial after each start up.
 At this point, I2C seemed to not be worth it. Further research into 
-this problem revealed that settings can in fact, be sent via I2C to the GPS, which we thought it's 
+this problem revealed that settings can in fact, be sent via I2C to the GPS, which we thought it was 
 impossible. Removing the unnecesary data from the messages increased the frequency to 3.7-4 Hz, which
 was a lot better than before, but the problem of the corrupt messages still remained, even though it 
 improved. Now about 80% of the messages were passing the checking algorithm, but regardless, I2C 
