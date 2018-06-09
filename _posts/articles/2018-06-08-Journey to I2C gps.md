@@ -38,7 +38,7 @@ lines coming from the mast, had some parasitic capacitance and inductance betwee
 one line, was producing a small spike (about 0.25V) in the other line. This didn't seem to be an issue 
 as the conversion into digital of the signal looked very good.
 
-![GPS waveform](/images/GPS-signal.png)
+![GPS waveform](/images/GPS_signal.png)
 Waveform of the GPS signals and the spikes resulting from the parasitic capacitance and inductance
 
 Further testing of the GPS only seemed to send messages at a frequency of 0.4-0.5 Hz, which was way less
