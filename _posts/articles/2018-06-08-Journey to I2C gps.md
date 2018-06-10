@@ -13,8 +13,8 @@ categories:
 ---
 Redesigning the mast electronics, meant at the same time adressing an issue from the past. Up until now,
 the GPS was wired through its Serial port, but this required us to have a total of 8 wires going up on
-the mast. Having the GPS on I2C would eliminate the two Serial wires and bring the total number down to 
-6. In order to achieve this, a few changes needed to be done, first of all the I2C level was incompatible
+the mast. Having the GPS on I2C would eliminate the two Serial wires and bring the total number down to 6.
+In order to achieve this, a few changes needed to be done, first of all the I2C level was incompatible
 with the GPS and from reading some other articles, we got the impression that the I2C of the GPS was 
 working slightly differently than expected. In the datasheet of the chip, the I2C port is described as being
 DDC I2C compatible, which is different from an I2C, in the sense that data is being pushed from the slaves 
