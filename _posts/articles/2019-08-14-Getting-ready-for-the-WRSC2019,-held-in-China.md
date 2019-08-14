@@ -1,7 +1,7 @@
 ---
 author: Umberto
 comments: true
-date: 2019-08-14 
+date: 2019-08-14 16:49:46+00:00
 layout: article
 image:
    teaser: 14AugustGetReady4.jpg
