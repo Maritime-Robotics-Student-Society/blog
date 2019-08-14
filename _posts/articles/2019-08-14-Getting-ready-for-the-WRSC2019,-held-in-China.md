@@ -6,7 +6,7 @@ layout: article
 image:
    teaser: 14AugustGetReady4.jpg
    path: /images/14AugustGetReady4.jpg
-published: false
+published: true
 title: "Getting ready for the WRSC 2019, held in China"
 categories:
 - articles
@@ -33,9 +33,15 @@ More updates coming soon!
 
 ![Boat image 1](/images/14augustGetReady1.jpg)
 *View of the entire boat*
+
+
 ![Boat image 2](/images/14AugustGetReady2.jpg)
 *New wind vane*
+
+
 ![Boat image 3](/images/14AugustGetReady3.jpg)
 *Top view of boat*
+
+
 ![Boat image 4](/images/14AugustGetReady4.jpg)
 *New painting on the boat*
