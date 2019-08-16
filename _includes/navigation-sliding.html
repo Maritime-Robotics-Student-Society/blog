@@ -3,7 +3,7 @@
   <ul class="menu-item">
     {% for link in site.data.navigation %}
       <li>
-        <a href="{{ link.url | render_url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
+        <a {{ link.url | xml_escape | render_anchor_attributes }}>
           {% if link.image %}<img src="{{ domain }}/images/{{ link.image }}" alt="teaser" class="teaser">{% endif %}
           <div class="title">{{ link.title }}</div>
           {% if link.excerpt %}<p class="excerpt">{{ link.excerpt }}</p>{% endif %}
