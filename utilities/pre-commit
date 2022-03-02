@@ -1,16 +1,8 @@
-----------------------------------------
-
-ALRIGHT LISTEN UP HERE
-
-Move this file into your .git/hooks/ directory, then remove this notice, up till and
-including the horizontal line just above the shebang. This file even has the right
-hook name already aren't I so kind
-
-----------------------------------------
 #!/bin/bash
 
 # Pre-commit Git hook. This currently just calls utilities/optimize_thumbnail.py
 # which makes a smaller copy of the header image for all articles.
+# To use: run `cp utilities/pre-commit .git/hooks`
 CYAN="\e[36m"
 GREEN="\e[92m"
 CLEAR="\e[39m"
