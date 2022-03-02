@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# Pre-commit Git hook. This currently just calls utilities/optimize_thumbnail.py
+# Pre-commit Git hook. This currently just calls utilities/optimise_thumbnail.py
 # which makes a smaller copy of the header image for all articles.
 # To use: run `cp utilities/pre-commit .git/hooks`
 CYAN="\e[36m"
+RED="\e[31m"
 GREEN="\e[92m"
 CLEAR="\e[39m"
 
-# Run optimize_thumbnail.py and print out files that need to be thumbnailised to a
+# Run optimise_thumbnail.py and print out files that need to be thumbnailised to a
 # temporary file
 # NOTE: This script runs through all articles. So if there are past articles without
 # a thumbnail, a thumbnail will be created and the old article will be edited and
@@ -23,10 +24,14 @@ run_optimise_thumbnail_script() {
     echo -e "${CYAN}Optimising thumbnails...${CLEAR}"
     # Check if pipenv is a global or a user install in the your machine
     if hash pipenv 2>/dev/null; then
-        pipenv run python3 "${root}/utilities/optimize_thumbnail.py" $root > $temp
+        pipenv run --three python3 "${root}/utilities/optimise_thumbnail.py" $root > $temp
     else
-        python3 -m pipenv run python3 "${root}/utilities/optimize_thumbnail.py" \
+        python3 -m pipenv run --three "${root}/utilities/optimise_thumbnail.py" \
                 $root > $temp
+    fi
+    if [[ $? -gt 0 ]]; then
+        echo -e "${RED}There was a problem running the optimiser. Please try again.${CLEAR}"
+        exit 1
     fi
     echo -e "${GREEN}Thumbnail creation complete! Staging these new changes...\
             ${CLEAR}"
