@@ -21,6 +21,8 @@ from PIL import Image
 from pathlib import Path
 from resizeimage import resizeimage
 
+raise Exception("Test")
+
 # File constants
 pat = r"[\n\r].*path:\s*([^\n\r]*)"
 types = ('*.md', '*.markdown')
