@@ -1,0 +1,14 @@
+name: CI  
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          target: patch
+          github-token: ${{ secrets.mytoken }}
